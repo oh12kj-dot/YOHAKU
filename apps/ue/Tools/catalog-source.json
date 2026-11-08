@@ -1,0 +1,1971 @@
+{
+  "source": "photo-referenced code model and independently generated UE v3 materials; not calibrated",
+  "catalog": [
+    {
+      "assetVersionId": "study-psf-v3-brown",
+      "suffix": "Brown",
+      "dimensionsMm": [
+        1500,
+        870,
+        820
+      ],
+      "studyCandidate": true,
+      "parts": [
+        {
+          "label": "upholstered-base",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_0.sofa-geometry-only_mesh_0",
+          "material": "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+          "location": [
+            0.0,
+            0.0,
+            18.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rear-support-panel-photo-referenced",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_1.sofa-geometry-only_mesh_1",
+          "material": "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+          "location": [
+            0.0,
+            -37.5,
+            40.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "left-arm",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_2.sofa-geometry-only_mesh_2",
+          "material": "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+          "location": [
+            -68.25,
+            -42.9,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "arm-shoulder-stitch--1",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_3.sofa-geometry-only_mesh_3",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "right-arm",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_4.sofa-geometry-only_mesh_4",
+          "material": "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+          "location": [
+            68.25,
+            -42.9,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "arm-shoulder-stitch-1",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_5.sofa-geometry-only_mesh_5",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "single-seat-cushion",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_6.sofa-geometry-only_mesh_6",
+          "material": "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+          "location": [
+            0.0,
+            8.5,
+            32.383496671915054
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt--0_31--0_0007",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_7.sofa-geometry-only_mesh_7",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt--0_31-0_0007",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_8.sofa-geometry-only_mesh_8",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0--0_0007",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_9.sofa-geometry-only_mesh_9",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0-0_0007",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_10.sofa-geometry-only_mesh_10",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0_31--0_0007",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_11.sofa-geometry-only_mesh_11",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0_31-0_0007",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_12.sofa-geometry-only_mesh_12",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-cross-quilt",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_13.sofa-geometry-only_mesh_13",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-front-piping",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_14.sofa-geometry-only_mesh_14",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "left-back-cushion",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_15.sofa-geometry-only_mesh_15",
+          "material": "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+          "location": [
+            -31.1,
+            -23.568281829357147,
+            61.250003397464745
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "back-cushion-piping--1",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_16.sofa-geometry-only_mesh_16",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "right-back-cushion",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_17.sofa-geometry-only_mesh_17",
+          "material": "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+          "location": [
+            31.1,
+            -23.568281829357147,
+            61.250027239322655
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "back-cushion-piping-1",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_18.sofa-geometry-only_mesh_18",
+          "material": "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_19.sofa-geometry-only_mesh_19",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            -51.5,
+            -35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_20.sofa-geometry-only_mesh_20",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            -51.5,
+            -35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg_bac3687f7485cf99c76fa3af0249e381",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_21.sofa-geometry-only_mesh_21",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            -51.5,
+            35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot_5e162c486bff3de2f21b13c127d5d3c0",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_22.sofa-geometry-only_mesh_22",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            -51.5,
+            35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg_0d4de5b992c8906871e845b6fc7368e1",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_23.sofa-geometry-only_mesh_23",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            51.5,
+            -35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot_75d0762ac32edc87193dd203a2333e78",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_24.sofa-geometry-only_mesh_24",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            51.5,
+            -35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg_6667e8ada727de00250e9d5a7238caa2",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_25.sofa-geometry-only_mesh_25",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            51.5,
+            35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot_822bd5b33f469c4a824d698f25aba074",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_26.sofa-geometry-only_mesh_26",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            51.5,
+            35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "power-panel-approximation",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_27.sofa-geometry-only_mesh_27",
+          "material": "/Game/UEFabricV3/M_PowerPlate_MattePolymer.M_PowerPlate_MattePolymer",
+          "location": [
+            0.0,
+            42.9,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-well",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_28.sofa-geometry-only_mesh_28",
+          "material": "/Game/UEFabricV3/M_Socket_DarkPolymer.M_Socket_DarkPolymer",
+          "location": [
+            -4.3,
+            43.37,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_29.sofa-geometry-only_mesh_29",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            -5.2,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot_aed5863e22b2208fd817d0c82faab324",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_30.sofa-geometry-only_mesh_30",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            -3.3999999999999995,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-well_05241ba1226a5af2c1edfc2ce18192b1",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_31.sofa-geometry-only_mesh_31",
+          "material": "/Game/UEFabricV3/M_Socket_DarkPolymer.M_Socket_DarkPolymer",
+          "location": [
+            0.2,
+            43.37,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot_3b756bfbcfc667dee4b348f8f4eb28e5",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_32.sofa-geometry-only_mesh_32",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            -0.7,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot_7184ef2dfed402695126cd0f35093be5",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_33.sofa-geometry-only_mesh_33",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            1.0999999999999999,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "usb-metal-surround",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_34.sofa-geometry-only_mesh_34",
+          "material": "/Game/UEFabricV3/M_USB_BrushedMetal.M_USB_BrushedMetal",
+          "location": [
+            4.0,
+            43.4,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "usb-port",
+          "mesh": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_35.sofa-geometry-only_mesh_35",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            4.0,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "assetVersionId": "study-psf-v3-blue-gray",
+      "suffix": "BlueGray",
+      "dimensionsMm": [
+        1500,
+        870,
+        820
+      ],
+      "studyCandidate": true,
+      "parts": [
+        {
+          "label": "upholstered-base",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_0.sofa-geometry-only_mesh_0",
+          "material": "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            18.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rear-support-panel-photo-referenced",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_1.sofa-geometry-only_mesh_1",
+          "material": "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+          "location": [
+            0.0,
+            -37.5,
+            40.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "left-arm",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_2.sofa-geometry-only_mesh_2",
+          "material": "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+          "location": [
+            -68.25,
+            -42.9,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "arm-shoulder-stitch--1",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_3.sofa-geometry-only_mesh_3",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "right-arm",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_4.sofa-geometry-only_mesh_4",
+          "material": "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+          "location": [
+            68.25,
+            -42.9,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "arm-shoulder-stitch-1",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_5.sofa-geometry-only_mesh_5",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "single-seat-cushion",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_6.sofa-geometry-only_mesh_6",
+          "material": "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+          "location": [
+            0.0,
+            8.5,
+            32.383496671915054
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt--0_31--0_0007",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_7.sofa-geometry-only_mesh_7",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt--0_31-0_0007",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_8.sofa-geometry-only_mesh_8",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0--0_0007",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_9.sofa-geometry-only_mesh_9",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0-0_0007",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_10.sofa-geometry-only_mesh_10",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0_31--0_0007",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_11.sofa-geometry-only_mesh_11",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-quilt-0_31-0_0007",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_12.sofa-geometry-only_mesh_12",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-cross-quilt",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_13.sofa-geometry-only_mesh_13",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "seat-front-piping",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_14.sofa-geometry-only_mesh_14",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "left-back-cushion",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_15.sofa-geometry-only_mesh_15",
+          "material": "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+          "location": [
+            -31.1,
+            -23.568281829357147,
+            61.250003397464745
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "back-cushion-piping--1",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_16.sofa-geometry-only_mesh_16",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "right-back-cushion",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_17.sofa-geometry-only_mesh_17",
+          "material": "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+          "location": [
+            31.1,
+            -23.568281829357147,
+            61.250027239322655
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "back-cushion-piping-1",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_18.sofa-geometry-only_mesh_18",
+          "material": "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_19.sofa-geometry-only_mesh_19",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            -51.5,
+            -35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_20.sofa-geometry-only_mesh_20",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            -51.5,
+            -35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg_bac3687f7485cf99c76fa3af0249e381",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_21.sofa-geometry-only_mesh_21",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            -51.5,
+            35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot_5e162c486bff3de2f21b13c127d5d3c0",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_22.sofa-geometry-only_mesh_22",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            -51.5,
+            35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg_0d4de5b992c8906871e845b6fc7368e1",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_23.sofa-geometry-only_mesh_23",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            51.5,
+            -35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot_75d0762ac32edc87193dd203a2333e78",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_24.sofa-geometry-only_mesh_24",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            51.5,
+            -35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "iron-leg_6667e8ada727de00250e9d5a7238caa2",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_25.sofa-geometry-only_mesh_25",
+          "material": "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+          "location": [
+            51.5,
+            35.0,
+            6.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "rubber-foot_822bd5b33f469c4a824d698f25aba074",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_26.sofa-geometry-only_mesh_26",
+          "material": "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+          "location": [
+            51.5,
+            35.0,
+            0.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "power-panel-approximation",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_27.sofa-geometry-only_mesh_27",
+          "material": "/Game/UEFabricV3/M_PowerPlate_MattePolymer.M_PowerPlate_MattePolymer",
+          "location": [
+            0.0,
+            42.9,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-well",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_28.sofa-geometry-only_mesh_28",
+          "material": "/Game/UEFabricV3/M_Socket_DarkPolymer.M_Socket_DarkPolymer",
+          "location": [
+            -4.3,
+            43.37,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_29.sofa-geometry-only_mesh_29",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            -5.2,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot_aed5863e22b2208fd817d0c82faab324",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_30.sofa-geometry-only_mesh_30",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            -3.3999999999999995,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-well_05241ba1226a5af2c1edfc2ce18192b1",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_31.sofa-geometry-only_mesh_31",
+          "material": "/Game/UEFabricV3/M_Socket_DarkPolymer.M_Socket_DarkPolymer",
+          "location": [
+            0.2,
+            43.37,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot_3b756bfbcfc667dee4b348f8f4eb28e5",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_32.sofa-geometry-only_mesh_32",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            -0.7,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "socket-slot_7184ef2dfed402695126cd0f35093be5",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_33.sofa-geometry-only_mesh_33",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            1.0999999999999999,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "usb-metal-surround",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_34.sofa-geometry-only_mesh_34",
+          "material": "/Game/UEFabricV3/M_USB_BrushedMetal.M_USB_BrushedMetal",
+          "location": [
+            4.0,
+            43.4,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "label": "usb-port",
+          "mesh": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_35.sofa-geometry-only_mesh_35",
+          "material": "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+          "location": [
+            4.0,
+            43.43,
+            18.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "copiedAssets": [
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Leg",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\Materials\\UE_SLOT_Leg.uasset",
+      "sha256": "a5c603c38bdc65304d86f84d16c89f651c2627dd6a43af3e0e6420de240eba6b"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_PowerPlate",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\Materials\\UE_SLOT_PowerPlate.uasset",
+      "sha256": "d68af56a91613f4414e6c50d5f9c3fe964aa7307a0c8b45ca40024e0139772a6"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Socket",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\Materials\\UE_SLOT_Socket.uasset",
+      "sha256": "30bf20f4aa89f437a8db84a22e13a83985b69e6a2a6cd9bbc41e9307d51bbee5"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Stitch",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\Materials\\UE_SLOT_Stitch.uasset",
+      "sha256": "2bec659c37399014850c7b24d653df5f93076df518a4e33b2be3920f015d6fa8"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_USB",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\Materials\\UE_SLOT_USB.uasset",
+      "sha256": "cbadfba800e3786d9c3af32444daaa94db924f125694a2f9aef966fab96b904e"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Upholstery",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\Materials\\UE_SLOT_Upholstery.uasset",
+      "sha256": "67527f8b24e7fbc6a2a998331a8579529cf1cb05074580860584ef920b205bf4"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_0",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_0.uasset",
+      "sha256": "8ad792611503d03d504529568d13621582a91ed7c8a16301f8beb34e26ea0776"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_1",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_1.uasset",
+      "sha256": "a1e8081474dceb7333271fb7004d9ea40237ba7c691dc04eac8b3bed90a0f868"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_10",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_10.uasset",
+      "sha256": "42c1987fb7fda3a71f1748f2ea94739f9352a2286d71e7246ef092afab2eb396"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_11",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_11.uasset",
+      "sha256": "fbcd8dfd13a0cdca4079f71f39299500c934b0d63a193163f76fa8722f587cc5"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_12",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_12.uasset",
+      "sha256": "91c553077667cbc5131f9f43754d5ea1a26a2ce8c33b43748fddc9d15651d5e6"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_13",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_13.uasset",
+      "sha256": "e3f28fbf1f4b8aa3c3bd5fb98e7608f6f9ea8251f8985a580c70697f3686b7a7"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_14",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_14.uasset",
+      "sha256": "ae4933f567bb03deac1ebb194cc4d5d8db14fb8fad85e0c7a93a2a9f3a9c8e67"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_15",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_15.uasset",
+      "sha256": "3abc8a9aee222b100c5051d90d0688613250cad0c71dde46a213ffb16b06a882"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_16",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_16.uasset",
+      "sha256": "dc3e197a99a0935126d64492d4af3ed61b3172adfd4c2039812676c132646450"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_17",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_17.uasset",
+      "sha256": "075e82159225917454f61df055be886f508a60a8cb633004d4ecb62734640428"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_18",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_18.uasset",
+      "sha256": "be438fd75595c94634e8f450ca89e8bbec94959b948b6d0392a35b01dfaa7425"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_19",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_19.uasset",
+      "sha256": "c55286706c57b5b823445e79119a33eaa6d3ff4951201e43bfd463365a9cd48d"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_2",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_2.uasset",
+      "sha256": "bf2d352a59f769641cfdb3e911021d0ebb06a8b2f75f0151da9d147aeec49046"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_20",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_20.uasset",
+      "sha256": "fd06ee0341838e611fc499d4b3440d08b1ce26f24a99667a6bf19c8f0e9ec23a"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_21",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_21.uasset",
+      "sha256": "01de4c5ef9fe2bf07f6d5fc1e196089335e35b58487a1d16b2352dc80b0428f2"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_22",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_22.uasset",
+      "sha256": "d4385547431d60f7f246d0280e010652ef77db1b961878a56bc055d1eac557f9"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_23",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_23.uasset",
+      "sha256": "d3df62210ae5fa19a7b05583f11b921a8857fbec0b8a961150ebd05d872bbf24"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_24",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_24.uasset",
+      "sha256": "5397b70c72309c35d7a7f6357b4959387c1d564ae9d0e955e1be6e04628bfdcc"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_25",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_25.uasset",
+      "sha256": "9a33ef5056c88c9241e7b92073ab8516216366eea3a9087a35bef7a8c6652264"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_26",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_26.uasset",
+      "sha256": "e3a4894f02041ec39c9d3e430e57657c1e1e9f1ab59532b408b5729edcaaee83"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_27",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_27.uasset",
+      "sha256": "7937fc1fda5cdf84ed1ae9c548da9752802b99cfc2dae2ec540ee65d7a24ecba"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_28",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_28.uasset",
+      "sha256": "849d48530885aa9fa56a27d4bbc2540020d718d72edecc2bc429841b1d757c93"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_29",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_29.uasset",
+      "sha256": "455dc2fe80273eba61e660676c142272dc5d3aa37fd2315d6b36ba635a2a8f88"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_3",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_3.uasset",
+      "sha256": "180d0fecbddde98578f29164337acbbc3228aad701c0a5c4f88107d67d8eee5b"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_30",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_30.uasset",
+      "sha256": "b8ee555c121a4bce1192797012d7ecff35bf32e850d0bf7f21267372a1a654c2"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_31",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_31.uasset",
+      "sha256": "06ce1f2dceadbe1b367c4d11410cf85e70398555c12bbc764547e8a57df509fc"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_32",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_32.uasset",
+      "sha256": "0f3976c845d00d6a273c99b85169892a7f985cfa9fcf1a4ac0732953f87b5485"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_33",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_33.uasset",
+      "sha256": "f5900d029203b252c43b72958f8015c9cfd028a47a6959b51dd371e6a3329570"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_34",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_34.uasset",
+      "sha256": "c6b53d502bcdd0bec2186cb541a537c7c78229d8706194ad0d309f9415b9cf4a"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_35",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_35.uasset",
+      "sha256": "8fbb57b6bc4b19ad44e7ba9c23782cea41e2d0f405a7d07f30546ccfdbd4e2c4"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_4",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_4.uasset",
+      "sha256": "bd7759412b397d7cd84020e7028a0cde5cfedf66dcedbf1c887abc618115c70a"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_5",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_5.uasset",
+      "sha256": "562cb15304b6b955424db5f238e999e2d6d4af3f9bdeecce323b08409154622f"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_6",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_6.uasset",
+      "sha256": "6b253ba18a499ee9cf41793944992465824442514b7062d48a2cdc97216c7e64"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_7",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_7.uasset",
+      "sha256": "0637517021a742ce6584b1f9c067d13cedc9c07f557474bd5486751f0d849df0"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_8",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_8.uasset",
+      "sha256": "7b50342b48fa65a8291e6de3bc660b7ad01b16afe5acc9b7ccf0a7178fb605b0"
+    },
+    {
+      "package": "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_9",
+      "file": "Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_9.uasset",
+      "sha256": "2cb459c7a9938aaf0743d56e1f874ee0a0e5b01745c597d772aff723694ddade"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Leg",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\Materials\\UE_SLOT_Leg.uasset",
+      "sha256": "65ec4f7092dc9e791debf7639c5f1dd0a9cc8b27fe0972d15724fdf5d67b161f"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_PowerPlate",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\Materials\\UE_SLOT_PowerPlate.uasset",
+      "sha256": "c8c55661afd1281ff05c606f92d3bc39510ddbedbdb33590e5044e9ad021ea8c"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Socket",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\Materials\\UE_SLOT_Socket.uasset",
+      "sha256": "b005bd99abb9962000f65eb6ad5571b1822124698463c22de0ca45a2ef30dcf0"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Stitch",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\Materials\\UE_SLOT_Stitch.uasset",
+      "sha256": "190345b6d5076a61a7c1dfb7b1ae0076c719bd5b40fa225c6d3762312c050ecf"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_USB",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\Materials\\UE_SLOT_USB.uasset",
+      "sha256": "d81ed6fd0742c27872c5e38598186b5af3abf6c49673bc7e20634c27913f0d3a"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Upholstery",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\Materials\\UE_SLOT_Upholstery.uasset",
+      "sha256": "a757bfdf76e2b8337ae1f7bccbfe7536450fe47af5806b849daaf030e0805fea"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_0",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_0.uasset",
+      "sha256": "ca8c192841ca6c3b3aba3af7e1accb02f971a80c28bac6c074dbe3ccccd490a3"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_1",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_1.uasset",
+      "sha256": "9c717dfe383d83a8313309ceff8167cacf0d80d6f027dacdf6d5e70fae39f0d0"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_10",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_10.uasset",
+      "sha256": "edf4892681100ec26d6a5ffe9a99ffeca0772918721998ef633782fb4bacd204"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_11",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_11.uasset",
+      "sha256": "34a5d8e0f1f45ffaf43ac4afab3e8142dfb1aa651bf500747f68a7fcdce3ba8d"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_12",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_12.uasset",
+      "sha256": "c0d4b9a8b082d9ef40ff13832e8709c0aec17f642e01d4b38ccf7ef9ec0be296"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_13",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_13.uasset",
+      "sha256": "5363cf985dc849475c595749311c651b3790eeb854842d513d450f19598e2110"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_14",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_14.uasset",
+      "sha256": "f8612a8d39b9ecf86c26a49c8af20a75abd23d425687a6060988ec6021f36724"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_15",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_15.uasset",
+      "sha256": "2f5445c95404a93c061af2a9a554e00bbcfc5ed5fe55188627c967320bca720e"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_16",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_16.uasset",
+      "sha256": "30baf7b748c681659445de4cb37f2eae341d7e2bc0e437df9ab57903926d16d0"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_17",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_17.uasset",
+      "sha256": "ab59d5c965ccb0d61d80de71d4aa2e578c6343b479f57475f32d997eacddfb61"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_18",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_18.uasset",
+      "sha256": "5724b0b4792df568a67c9019632b87d6bbe4750a246fe7e7b478a3c71c3cb540"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_19",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_19.uasset",
+      "sha256": "340d05c976581b03bdf217087e919f374cd41bc4858e87c80d8409f4ea42d13b"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_2",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_2.uasset",
+      "sha256": "4e693e3c444a2b554aac2b55427f5804c42d114142d0ae8b7990726cc044ad0d"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_20",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_20.uasset",
+      "sha256": "4049783ee7f1dc6fe1e2a681416a885a2df31aa19b70a85064571a3852a241e4"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_21",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_21.uasset",
+      "sha256": "812767cba82d77c4feaf5c72f59146deedd15ffd4af250e5303f915361ab09e9"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_22",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_22.uasset",
+      "sha256": "1bc7cdfbc422c5f7aab03ccc66fa938e4fb1d37c8b522cae1fde188e54ee3be3"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_23",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_23.uasset",
+      "sha256": "f76fe71e746c31fd8473b5e1a0d227719103d6faaa170f13e6e30fb93c4775e7"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_24",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_24.uasset",
+      "sha256": "9514b3d4b80b0397fbdd9bb32b2351e90c9183fcb2c0e6456ff8534effc0e4f2"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_25",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_25.uasset",
+      "sha256": "902382598b719c448d1590dab9923b3543ddf633664549e6bc021577f0084164"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_26",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_26.uasset",
+      "sha256": "5c33d1caef48c38628ee95fc4c282652820642379d5bf9c8ec86004b74ab0832"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_27",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_27.uasset",
+      "sha256": "2ca3f788fac4bc9490e7d0cf40f42b699d948ba7b8e06274bf993d08014ccaaa"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_28",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_28.uasset",
+      "sha256": "ef77575b5be530c898a7cf7b62b8ccb8310bbc60b57f55cf12af496d47097015"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_29",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_29.uasset",
+      "sha256": "3a9ff46c0ef7c1a36f42951bf301fd65bbfe1e18bdba511738f4ca7f07397801"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_3",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_3.uasset",
+      "sha256": "b2e24eff339f2b932478e08edf3b6d3da2cf6288529607d897b76550f7311ad0"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_30",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_30.uasset",
+      "sha256": "9975651b1292048b649678b04172fcc49c4f8ce6b79866df7b833ebafef273a3"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_31",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_31.uasset",
+      "sha256": "67e565e6126b11a233b4f48dc60931ba837b9f5ea21d978cb9b3d9708713d6cd"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_32",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_32.uasset",
+      "sha256": "517d33b0f87822a92b7aac2f2a80488ababa7a69f5219c3127ed0ce2d6715192"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_33",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_33.uasset",
+      "sha256": "fea88e8b7c216a1cf2f43137c99a49832e250171e6450761c694d6f5ae9b5490"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_34",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_34.uasset",
+      "sha256": "2ab306c747daa71748d34e50e73067fe05c85a9be653f7cb89c68d1772aecbda"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_35",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_35.uasset",
+      "sha256": "393edc9440d896b122630f9807c49c3493549e8522af6d1b4042e6195f422cd8"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_4",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_4.uasset",
+      "sha256": "97b0bc5ff609c90c641e38d595c5cfe8ae1a5721e4f107e30350d225332e7cd4"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_5",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_5.uasset",
+      "sha256": "6ab92b5044486a2be1d2139eaa1f975356171b0918957ae26c758efae493881b"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_6",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_6.uasset",
+      "sha256": "d4815f7fe862e1e15b5e39cb525d5bb7dc0179d0d79770f2d4e36b4406760b0b"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_7",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_7.uasset",
+      "sha256": "5fc3a89d26d3a3b9d7be7edf375594907a6aef05a1460bb4ddd7e71793393061"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_8",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_8.uasset",
+      "sha256": "6e1300bb8c73e87da662dfc45e22345c07e4b11bca51b32e508ae6310104eb66"
+    },
+    {
+      "package": "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_9",
+      "file": "Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_9.uasset",
+      "sha256": "5338fcddb3e83f3b9cbfba72e4decea83a6a7e4cb17e78b91f2c4f91aaf325b3"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_Foot_Rubber",
+      "file": "Content\\UEFabricV3\\M_Foot_Rubber.uasset",
+      "sha256": "7f9ff0b59fe44f1f1a8bde1361642f54b5c085e9ae0bee21e1b659c078e27e47"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_Leg_BlackPowdercoat",
+      "file": "Content\\UEFabricV3\\M_Leg_BlackPowdercoat.uasset",
+      "sha256": "3b0358643c4703e3963f3d300772cd201a9c53e5245d369237ce6dc9587b2b4f"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_PSF_UE_BlueGray",
+      "file": "Content\\UEFabricV3\\M_PSF_UE_BlueGray.uasset",
+      "sha256": "25ee6ed9adab7c55c1903e2aa20c934517356e15c3deac0090a6eaaf4a90b483"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_PSF_UE_Brown",
+      "file": "Content\\UEFabricV3\\M_PSF_UE_Brown.uasset",
+      "sha256": "8517cf1e4ba83bd6707c5503535a6a4daa90e846808be66e2138743efca0e80e"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_Port_Interior",
+      "file": "Content\\UEFabricV3\\M_Port_Interior.uasset",
+      "sha256": "c527d08f42e6fcd8c7c0422de00d92335941c33dd04d236532caaf0bd656b3b2"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_PowerPlate_MattePolymer",
+      "file": "Content\\UEFabricV3\\M_PowerPlate_MattePolymer.uasset",
+      "sha256": "33a6ab95c6c05d1823d04162e32e415be6fd71fbd1776a5a76f7ee5aee4422e4"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_Socket_DarkPolymer",
+      "file": "Content\\UEFabricV3\\M_Socket_DarkPolymer.uasset",
+      "sha256": "ca98ecf3a63b91ea50117cade2a3ea744438d381ba69bd71677367bbce02afe0"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_Stitch_BlueGray",
+      "file": "Content\\UEFabricV3\\M_Stitch_BlueGray.uasset",
+      "sha256": "a11d3a0ab1d4934ce6a9247cf73983134415b952e9ca515960f132bccda8449c"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_Stitch_Brown",
+      "file": "Content\\UEFabricV3\\M_Stitch_Brown.uasset",
+      "sha256": "0a25dbbabc1755544c5aa3131f397a306b99836c3bed960188f38e4ef22deb5c"
+    },
+    {
+      "package": "/Game/UEFabricV3/M_USB_BrushedMetal",
+      "file": "Content\\UEFabricV3\\M_USB_BrushedMetal.uasset",
+      "sha256": "ccffbc43dffd5f5519a8ca7857442c7f40cf5a2ee4c8803d684e1c7e6a6e8ae1"
+    },
+    {
+      "package": "/Game/UEFabricV3/Textures/BlueGray/blue-gray-basecolor",
+      "file": "Content\\UEFabricV3\\Textures\\BlueGray\\blue-gray-basecolor.uasset",
+      "sha256": "4e7bbbab83e89442bb4d110bdcd732f21ad25a9674c64aa1b996fdfacda6b90b"
+    },
+    {
+      "package": "/Game/UEFabricV3/Textures/BlueGray/blue-gray-normal",
+      "file": "Content\\UEFabricV3\\Textures\\BlueGray\\blue-gray-normal.uasset",
+      "sha256": "4289798701cb1062efa98b332df5ffeace6c0a7ee5ac92b6eaea188aa76228eb"
+    },
+    {
+      "package": "/Game/UEFabricV3/Textures/BlueGray/blue-gray-roughness",
+      "file": "Content\\UEFabricV3\\Textures\\BlueGray\\blue-gray-roughness.uasset",
+      "sha256": "7dc3d3c7cca2d1a47d1edc41e50040fd72b4fdf4d4c784aefed9f173ad80dda0"
+    },
+    {
+      "package": "/Game/UEFabricV3/Textures/Brown/brown-basecolor",
+      "file": "Content\\UEFabricV3\\Textures\\Brown\\brown-basecolor.uasset",
+      "sha256": "b37f35af0bb53b287f4a8ee8f4c3bf5d54b852d11a9085edd8150c641f379680"
+    },
+    {
+      "package": "/Game/UEFabricV3/Textures/Brown/brown-normal",
+      "file": "Content\\UEFabricV3\\Textures\\Brown\\brown-normal.uasset",
+      "sha256": "af30dd2989e1d03d00cd74e2515627689d2182a208a17905d5f58da462c45bb7"
+    },
+    {
+      "package": "/Game/UEFabricV3/Textures/Brown/brown-roughness",
+      "file": "Content\\UEFabricV3\\Textures\\Brown\\brown-roughness.uasset",
+      "sha256": "6580e966c5c0653690e963d59ad6dae4e9d342a86ed439de1b690e295e6212b0"
+    }
+  ]
+}

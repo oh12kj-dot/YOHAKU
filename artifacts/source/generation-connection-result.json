@@ -1,0 +1,4 @@
+{
+  "status": 401,
+  "body": "{\"detail\":\"Cannot access application \\\"fal-ai/trellis-2\\\". Authentication is required to access this application.\"}"
+}

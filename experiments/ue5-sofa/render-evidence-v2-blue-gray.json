@@ -1,0 +1,12 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "output": "C:\\AI\\App_Dev\\YOHAKU\\artifacts\\ue5-sofa-blue-gray-v2.png",
+  "frames": 1084,
+  "elapsed_after_level_ready_s": 60.484999999869615,
+  "exposure": "manual; physical camera disabled; compensation -6 stops",
+  "lumen_gi": 1,
+  "lumen_reflections": 1,
+  "hardware_raytracing": 0,
+  "validation": "render experiment only; not performance or photorealism acceptance",
+  "material_source": "new independent UE5 native material; new generated maps; no Web texture reuse"
+}

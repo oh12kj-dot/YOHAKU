@@ -1,0 +1,26 @@
+{
+	"format": "yohaku-local-study",
+	"version": 1,
+	"room":
+	{
+		"widthMm": 6200,
+		"depthMm": 4600,
+		"heightMm": 2600
+	},
+	"finishes": [
+		0,
+		1,
+		1,
+		1,
+		1
+	],
+	"furniture": [
+		{
+			"id": "92FEA920-4093-B90C-733D-F78ADA7CD9C1",
+			"assetVersionId": "study-psf-v3-blue-gray",
+			"xMm": 2600,
+			"zMm": 2400,
+			"yawRad": -3.141592566167013
+		}
+	]
+}

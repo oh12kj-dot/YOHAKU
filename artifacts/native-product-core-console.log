@@ -1,0 +1,5 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/AI/App_Dev/YOHAKU/apps/ue/Yohaku.uproject" -log="C:/AI/App_Dev/YOHAKU/apps/ue/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: C:\AI\App_Dev\YOHAKU\apps\ue\Saved\Logs\AutoSDKInfo.txt
+A conflicting instance of Global\UnrealBuildTool_Mutex_096b8b11a8779fc55e9da244f4a8ecf62868c83d is already running.
+Trace written to file C:\Users\oh12k\AppData\Local\UnrealBuildTool\Trace.uba with size 275b

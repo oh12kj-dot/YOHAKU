@@ -1,0 +1,28 @@
+{
+	"passed": true,
+	"restart": false,
+	"storage": "C:/AI/App_Dev/YOHAKU/artifacts/native-smoke/current.yohaku.json",
+	"scene": "{\r\n\t\"format\": \"yohaku-local-study\",\r\n\t\"version\": 1,\r\n\t\"room\":\r\n\t{\r\n\t\t\"widthMm\": 6200,\r\n\t\t\"depthMm\": 4600,\r\n\t\t\"heightMm\": 2600\r\n\t},\r\n\t\"finishes\": [\r\n\t\t0,\r\n\t\t1,\r\n\t\t1,\r\n\t\t1,\r\n\t\t1\r\n\t],\r\n\t\"furniture\": [\r\n\t\t{\r\n\t\t\t\"id\": \"7250E658-4E26-BA34-5FB1-AF9A5739399E\",\r\n\t\t\t\"assetVersionId\": \"study-psf-v3-blue-gray\",\r\n\t\t\t\"xMm\": 2600,\r\n\t\t\t\"zMm\": 2400,\r\n\t\t\t\"yawRad\": 3.1415927410125732\r\n\t\t}\r\n\t]\r\n}",
+	"checks": [
+		"PASS Explicit isolated test storage",
+		"PASS Native room command",
+		"PASS Independent floor and all four walls",
+		"PASS Place study candidate",
+		"PASS 36 runtime sofa mesh parts",
+		"PASS Candidate provenance retained",
+		"PASS Gesture preview does not mutate document",
+		"PASS Cancel discards preview without history",
+		"PASS Gesture commit creates exactly one history entry",
+		"PASS Variant swap preserves pose",
+		"PASS Runtime fixed centimetre bounds and floor",
+		"PASS Camera presets do not change furniture",
+		"PASS Duplicate",
+		"PASS Delete",
+		"PASS Undo delete",
+		"PASS Redo delete",
+		"PASS Atomic local save",
+		"PASS Corrupt input retains scene",
+		"PASS Unknown asset retains scene",
+		"PASS Local save/load exact round trip"
+	]
+}

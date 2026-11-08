@@ -1,0 +1,15 @@
+{
+  "pids": [
+    24632,
+    45168
+  ],
+  "udp": [],
+  "tcp": [
+    {
+      "LocalAddress": "0.0.0.0",
+      "LocalPort": 1985,
+      "OwningProcess": 45168
+    }
+  ],
+  "checkedAt": "2026-11-08T09:06:49.7935716Z"
+}

@@ -1,0 +1,42 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" YohakuEditor Win64 Development -Project=C:\AI\App_Dev\YOHAKU\apps\ue\Yohaku.uproject -WaitMutex -NoHotReloadFromIDE -gather -NoUBA
+Log file: C:\Users\oh12k\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Building YohakuEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35227 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Upgrade]
+[Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6
+[Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_8;' in YohakuEditor.Target.cs.
+[Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[Upgrade]
+=================================
+Using Unreal Build Accelerator local executor to run 8 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 31.89 GB physical, 36.77 GB/110.02 GB committed
+  UBA Storage capacity 40 GB
+[1/8] Compile [x64] ProductSource.cpp [NoUba]
+[2/8] Link [x64] UnrealEditor-YohakuCore.lib [NoUba]
+   ﾃﾉﾃCﾃuﾃﾉﾃﾊ C:/AI/App_Dev/YOHAKU/apps/ue/Intermediate/Build/Win64/x64/UnrealEditor/Development/YohakuCore/UnrealEditor-YohakuCore.lib ﾂￆﾃIﾃuﾃWﾃFﾃNﾃg C:/AI/App_Dev/YOHAKU/apps/ue/Intermediate/Build/Win64/x64/UnrealEditor/Development/YohakuCore/UnrealEditor-YohakuCore.exp ﾂ￰ﾍ￬ﾐﾬﾒﾆ
+[3/8] Link [x64] UnrealEditor-YohakuCore.dll [NoUba]
+[4/8] Compile [x64] RoomController.cpp [NoUba]
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomController.cpp(404,59): warning C4305: 'ﾈ￸ﾐﾔ': 'double' ﾂﾩﾂ￧ 'float' ﾂￖﾐ￘ﾂ￨ﾋlﾂ￟ﾂￜﾂﾷﾁB
+                     FColor(180, 215, 140), false, -1, 0, 1.1);
+                                                          ^
+[5/8] Compile [x64] ProductSmoke.cpp [NoUba]
+[6/8] Link [x64] UnrealEditor-Yohaku.lib [NoUba]
+   ﾃﾉﾃCﾃuﾃﾉﾃﾊ C:/AI/App_Dev/YOHAKU/apps/ue/Intermediate/Build/Win64/x64/UnrealEditor/Development/Yohaku/UnrealEditor-Yohaku.lib ﾂￆﾃIﾃuﾃWﾃFﾃNﾃg C:/AI/App_Dev/YOHAKU/apps/ue/Intermediate/Build/Win64/x64/UnrealEditor/Development/Yohaku/UnrealEditor-Yohaku.exp ﾂ￰ﾍ￬ﾐﾬﾒﾆ
+[7/8] Link [x64] UnrealEditor-Yohaku.dll [NoUba]
+[8/8] WriteMetadata YohakuEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 4.81 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 6.07 seconds
+Trace written to file C:\Users\oh12k\AppData\Local\UnrealBuildTool\Trace.uba with size 4.2kb

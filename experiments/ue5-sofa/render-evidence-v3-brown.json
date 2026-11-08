@@ -1,0 +1,39 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "model_revision": 3,
+  "color": "brown",
+  "captures": [
+    {
+      "view": "hero",
+      "output": "C:\\AI\\App_Dev\\YOHAKU\\artifacts\\ue5-sofa-brown-v3.png",
+      "sha256": "199405fc18ce186ecdde0e6397c35670cb638470eaf1200a4bb9f92f60f572ed",
+      "capture_unix": 1794065638.1265135,
+      "camera": "StudyCamera",
+      "frames": 1352
+    },
+    {
+      "view": "front",
+      "output": "C:\\AI\\App_Dev\\YOHAKU\\artifacts\\ue5-sofa-brown-v3-front.png",
+      "sha256": "8e4591d3bade3274b46b52dddda8bff0260d69bec13156a0f26d73babfefccb5",
+      "capture_unix": 1794065656.8684685,
+      "camera": "FrontCamera",
+      "frames": 541
+    },
+    {
+      "view": "detail",
+      "output": "C:\\AI\\App_Dev\\YOHAKU\\artifacts\\ue5-sofa-brown-v3-detail.png",
+      "sha256": "bf61a947626214289526cf75c65ed6911320ab25877a97c8d4693443c3e8b4e7",
+      "capture_unix": 1794065675.9092414,
+      "camera": "DetailCamera",
+      "frames": 541
+    }
+  ],
+  "elapsed_s": 85.56199999991804,
+  "lumen_gi": 1,
+  "lumen_reflections": 1,
+  "hardware_raytracing": 0,
+  "shadow_ray_count": 24,
+  "shadow_samples_per_ray": 12,
+  "material": "UE-only newly generated v3 color/local-detail normal/variable roughness",
+  "validation": "reference-guided approximation; no measured PBR or performance acceptance"
+}

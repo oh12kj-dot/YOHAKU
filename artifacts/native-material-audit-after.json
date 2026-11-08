@@ -1,0 +1,336 @@
+{
+  "materials": {
+    "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_PowerPlate_MattePolymer.M_PowerPlate_MattePolymer": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_Socket_DarkPolymer.M_Socket_DarkPolymer": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_USB_BrushedMetal.M_USB_BrushedMetal": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    },
+    "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray": {
+      "usedWithNanite": true,
+      "automaticUsage": true
+    }
+  },
+  "meshes": {
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_0.sofa-geometry-only_mesh_0": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_1.sofa-geometry-only_mesh_1": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_2.sofa-geometry-only_mesh_2": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_3.sofa-geometry-only_mesh_3": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_4.sofa-geometry-only_mesh_4": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_5.sofa-geometry-only_mesh_5": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_6.sofa-geometry-only_mesh_6": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_7.sofa-geometry-only_mesh_7": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_8.sofa-geometry-only_mesh_8": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_9.sofa-geometry-only_mesh_9": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_10.sofa-geometry-only_mesh_10": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_11.sofa-geometry-only_mesh_11": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_12.sofa-geometry-only_mesh_12": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_13.sofa-geometry-only_mesh_13": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_14.sofa-geometry-only_mesh_14": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_15.sofa-geometry-only_mesh_15": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_16.sofa-geometry-only_mesh_16": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_17.sofa-geometry-only_mesh_17": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_18.sofa-geometry-only_mesh_18": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_19.sofa-geometry-only_mesh_19": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_20.sofa-geometry-only_mesh_20": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_21.sofa-geometry-only_mesh_21": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_22.sofa-geometry-only_mesh_22": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_23.sofa-geometry-only_mesh_23": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_24.sofa-geometry-only_mesh_24": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_25.sofa-geometry-only_mesh_25": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_26.sofa-geometry-only_mesh_26": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_27.sofa-geometry-only_mesh_27": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_28.sofa-geometry-only_mesh_28": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_29.sofa-geometry-only_mesh_29": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_30.sofa-geometry-only_mesh_30": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_31.sofa-geometry-only_mesh_31": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_32.sofa-geometry-only_mesh_32": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_33.sofa-geometry-only_mesh_33": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_34.sofa-geometry-only_mesh_34": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/Brown/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_35.sofa-geometry-only_mesh_35": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_0.sofa-geometry-only_mesh_0": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_1.sofa-geometry-only_mesh_1": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_2.sofa-geometry-only_mesh_2": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_3.sofa-geometry-only_mesh_3": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_4.sofa-geometry-only_mesh_4": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_5.sofa-geometry-only_mesh_5": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_6.sofa-geometry-only_mesh_6": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_7.sofa-geometry-only_mesh_7": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_8.sofa-geometry-only_mesh_8": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_9.sofa-geometry-only_mesh_9": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_10.sofa-geometry-only_mesh_10": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_11.sofa-geometry-only_mesh_11": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_12.sofa-geometry-only_mesh_12": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_13.sofa-geometry-only_mesh_13": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_14.sofa-geometry-only_mesh_14": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_15.sofa-geometry-only_mesh_15": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_16.sofa-geometry-only_mesh_16": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_17.sofa-geometry-only_mesh_17": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_18.sofa-geometry-only_mesh_18": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_19.sofa-geometry-only_mesh_19": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_20.sofa-geometry-only_mesh_20": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_21.sofa-geometry-only_mesh_21": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_22.sofa-geometry-only_mesh_22": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_23.sofa-geometry-only_mesh_23": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_24.sofa-geometry-only_mesh_24": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_25.sofa-geometry-only_mesh_25": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_26.sofa-geometry-only_mesh_26": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_27.sofa-geometry-only_mesh_27": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_28.sofa-geometry-only_mesh_28": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_29.sofa-geometry-only_mesh_29": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_30.sofa-geometry-only_mesh_30": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_31.sofa-geometry-only_mesh_31": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_32.sofa-geometry-only_mesh_32": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_33.sofa-geometry-only_mesh_33": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_34.sofa-geometry-only_mesh_34": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    },
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/StaticMeshes/sofa-geometry-only_mesh_35.sofa-geometry-only_mesh_35": {
+      "naniteEnabled": true,
+      "materialMatches": true
+    }
+  },
+  "allNaniteMaterialsReady": true,
+  "allAssignmentsMatch": true
+}

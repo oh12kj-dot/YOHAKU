@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext", "moduleResolution": "Bundler",
+    "strict": true, "noEmit": true, "skipLibCheck": true,
+    "allowImportingTsExtensions": true, "verbatimModuleSyntax": true, "resolveJsonModule": true,
+    "noUnusedLocals": true, "noUnusedParameters": true
+  },
+  "include": ["packages/contracts", "workers/import", "vitest.config.ts"]
+}

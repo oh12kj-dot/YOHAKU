@@ -1,0 +1,23 @@
+{
+  "removedActiveCode": [
+    "React/Three.js web editor",
+    "Vite development API",
+    "TypeScript scene-domain and geometry-kernel",
+    "sample catalog",
+    "legacy browser tests and generated JS/HTML"
+  ],
+  "sha256": "8F2ED9C64459041BA7245BE689450D145606F3760271903B0E35BC5095722D0F",
+  "stoppedOldViteProcess": 4756,
+  "retained": [
+    "product extractor",
+    "server contracts",
+    "product references and provenance",
+    "UE study assets"
+  ],
+  "archive": "archive/web-editor-2026-11-08.zip",
+  "verifiedOriginalEntries": 32,
+  "relocatedMaterialSources": [
+    "archive/retired-web-material-source",
+    "archive/retired-web-build-materials"
+  ]
+}

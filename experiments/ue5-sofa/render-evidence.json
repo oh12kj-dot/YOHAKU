@@ -1,0 +1,25 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "output": "C:\\AI\\App_Dev\\YOHAKU\\artifacts\\ue5-sofa-brown.png",
+  "frames": 1392,
+  "elapsed_after_level_ready_s": 47.60900000017136,
+  "exposure": "manual; physical camera disabled; compensation -6 stops",
+  "lumen_gi": 1,
+  "lumen_reflections": 1,
+  "hardware_raytracing": 0,
+  "source_bump_extension": "EXT_materials_bump unsupported by UE import; not treated as faithfully reproduced",
+  "validation": "render experiment only; not performance or photorealism acceptance",
+  "high_resolution_delay_frames": 64,
+  "visual_inspection": {
+    "resolution": [
+      1600,
+      1200
+    ],
+    "exposure": "brown material visible, clipping corrected",
+    "remaining_limitations": [
+      "visible grain in shadow and cushion contact regions",
+      "micro-bump extension not imported",
+      "different studio lighting from Three.js preview"
+    ]
+  }
+}

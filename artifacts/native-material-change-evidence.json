@@ -1,0 +1,18 @@
+{
+  "changedPaths": [
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Foot_Rubber.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Leg_BlackPowdercoat.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Port_Interior.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_PowerPlate_MattePolymer.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_PSF_UE_BlueGray.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_PSF_UE_Brown.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Socket_DarkPolymer.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Stitch_BlueGray.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Stitch_Brown.uasset",
+    "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_USB_BrushedMetal.uasset"
+  ],
+  "allAssignmentsMatch": true,
+  "materials": 10,
+  "meshes": 72,
+  "allNaniteMaterialsReady": true
+}

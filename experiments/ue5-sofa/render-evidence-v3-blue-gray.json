@@ -1,0 +1,31 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "model_revision": 3,
+  "color": "blue-gray",
+  "captures": [
+    {
+      "view": "hero",
+      "output": "C:\\AI\\App_Dev\\YOHAKU\\artifacts\\ue5-sofa-blue-gray-v3.png",
+      "sha256": "2053dc18c81914eaf381a4a41fe15649a04fc6c80fc75a1c7912dcbaf70bb222",
+      "capture_unix": 1794065756.7574406,
+      "camera": "StudyCamera",
+      "frames": 1382
+    },
+    {
+      "view": "detail",
+      "output": "C:\\AI\\App_Dev\\YOHAKU\\artifacts\\ue5-sofa-blue-gray-v3-detail.png",
+      "sha256": "964317a19b227634b1c3f80f23d885648bfeae4b495c145f0ab15f2af3f6d81e",
+      "capture_unix": 1794065775.8379798,
+      "camera": "DetailCamera",
+      "frames": 542
+    }
+  ],
+  "elapsed_s": 66.92200000002049,
+  "lumen_gi": 1,
+  "lumen_reflections": 1,
+  "hardware_raytracing": 0,
+  "shadow_ray_count": 24,
+  "shadow_samples_per_ray": 12,
+  "material": "UE-only newly generated v3 color/local-detail normal/variable roughness",
+  "validation": "reference-guided approximation; no measured PBR or performance acceptance"
+}

@@ -1,0 +1,130 @@
+{
+  "configuration": "Shipping",
+  "layoutHash": "B04E780F91F104E17615CB65002DB93B3E92C7A1AACE69165F38B74737C2310E",
+  "verifiedAt": "2026-11-08T09:11:32.6032299Z",
+  "filesVerified": 30,
+  "files": [
+    {
+      "path": "Manifest_DebugFiles_Win64.txt",
+      "sha256": "0CC52FC8291DA06F63DE5A33582151EEAA3FF2DE6DEA50CEA3DD4BF03550883D"
+    },
+    {
+      "path": "Manifest_NonUFSFiles_Win64.txt",
+      "sha256": "3F859B223229BC4AB9C4445F47AFCD4FC8F619291BF2CBD1DB2700011DFDDB86"
+    },
+    {
+      "path": "Manifest_UFSFiles_Win64.txt",
+      "sha256": "C38E3CC03235E2C354B4CD73963C5FAA523C929C757F795FA82987A925346111"
+    },
+    {
+      "path": "NOTICES.txt",
+      "sha256": "BA49AE5586F817B36A2772269F71F899CB1F54B5F2720FAD951319EDD5E140B8"
+    },
+    {
+      "path": "Yohaku.exe",
+      "sha256": "A0D8B58C58C325F2B3D8FDBFD44BE8DF3BE67256BE7E1CAC2BA0DBFC2A1F630D"
+    },
+    {
+      "path": "Engine\\Binaries\\ThirdParty\\DbgHelp\\dbghelp.dll",
+      "sha256": "36795E47D9724EE68349EFBBE64ABA94DB108B9CAD1E3DFE8BC510F359136F53"
+    },
+    {
+      "path": "Engine\\Binaries\\ThirdParty\\MsQuic\\v220\\win64\\msquic.dll",
+      "sha256": "5C6B07BF263DD8B85CB146B59468A22EB1FBD8635D4A6C56A8E41B67CE5ECA2B"
+    },
+    {
+      "path": "Engine\\Binaries\\ThirdParty\\NVIDIA\\NVaftermath\\Win64\\GFSDK_Aftermath_Lib.x64.dll",
+      "sha256": "82D7A3E50710D660927DB2F318CBED471049C962B7C05DE12C2B2B3E40A35AF9"
+    },
+    {
+      "path": "Engine\\Binaries\\ThirdParty\\Ogg\\Win64\\VS2015\\libogg_64.dll",
+      "sha256": "F23DF1213C4BF23B5C666BAFA7EC18743847A2E18192AE8E0D096A2FB7C28BF9"
+    },
+    {
+      "path": "Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbis_64.dll",
+      "sha256": "A56D43A98E197F5E73A1DADF5C1DC7A07AD40327B199FAA4FF1247ABD6ECCD5B"
+    },
+    {
+      "path": "Engine\\Binaries\\ThirdParty\\Vorbis\\Win64\\VS2015\\libvorbisfile_64.dll",
+      "sha256": "D64E67CA918716BE8B6056A6F7A1F6256E910754425DB8369D952943264B40EB"
+    },
+    {
+      "path": "Engine\\Binaries\\ThirdParty\\Windows\\XAudio2_9\\x64\\xaudio2_9redist.dll",
+      "sha256": "0CA010ABCABE52493FDB744D79C4C8132AE6756046B68AA7C88BDC03EC1EFFCD"
+    },
+    {
+      "path": "Engine\\Config\\StagedBuild_Yohaku.ini",
+      "sha256": "F1945CD6C19E56B3C1C78943EF5EC18116907A4CA1EFC40A57D48AB1DB7ADFC5"
+    },
+    {
+      "path": "Engine\\Content\\Renderer\\TessellationTable.bin",
+      "sha256": "EDC4F3B628A139C5E185BBAECA661C95C1F427368D3B92892C5CFF36C56DD941"
+    },
+    {
+      "path": "Engine\\Content\\Slate\\Cursor\\invisible.cur",
+      "sha256": "FEF3980FA567E9C45D5D8DCAA432A2C1A3F3BB17FE67D7AB198164F56C142AA1"
+    },
+    {
+      "path": "Engine\\Content\\SlateDebug\\Fonts\\LastResort.tps",
+      "sha256": "0F775FA99D05E21D43D2D06D55982B23DCDCCDB512A9A5A07AFF674F212C41B8"
+    },
+    {
+      "path": "Engine\\Content\\SlateDebug\\Fonts\\LastResort.ttf",
+      "sha256": "FFF0F8DE0B868B964950FE97C9B60F893E9BC85A4F90B3629C5693DB058B97B9"
+    },
+    {
+      "path": "Engine\\Plugins\\NNE\\NNERuntimeORT\\Binaries\\ThirdParty\\Onnxruntime\\Win64\\onnxruntime.dll",
+      "sha256": "5DF3D744B5CC4421181E9E2C97CADFF4E9B1B2B25E80202160E80FC94FF948F2"
+    },
+    {
+      "path": "Yohaku\\Binaries\\Win64\\tbb12.dll",
+      "sha256": "DE15A5F93BFD334D4FE32343A81D76F9DE0824AF8E31B2189637D12545AF2673"
+    },
+    {
+      "path": "Yohaku\\Binaries\\Win64\\tbbmalloc.dll",
+      "sha256": "74EDC04A8F5BC2593A5A555B675C1251D6D90E693EE6A67CFA11DD3B2D17A856"
+    },
+    {
+      "path": "Yohaku\\Binaries\\Win64\\Yohaku-Win64-Shipping.exe",
+      "sha256": "F2CC5D1C7098FF2B6A3B872F99935A85EA66E8830A24E93EC0C30C6AD45F2E63"
+    },
+    {
+      "path": "Yohaku\\Binaries\\Win64\\Yohaku-Win64-Shipping.pdb",
+      "sha256": "ACE7986EB9E6085EE6EE03261442822B3D43A57914D06BA6074B5D55DC51BE1F"
+    },
+    {
+      "path": "Yohaku\\Binaries\\Win64\\D3D12\\x64\\D3D12Core.dll",
+      "sha256": "C41711499E13244FD07CA28A9B32ECE29E4454ECC38FB50681F74254B333A9B3"
+    },
+    {
+      "path": "Yohaku\\Binaries\\Win64\\D3D12\\x64\\d3d12SDKLayers.dll",
+      "sha256": "E36F1EE4371798892529762368907D19B997493AD6F30AA8ACBFD0132881804F"
+    },
+    {
+      "path": "Yohaku\\Binaries\\Win64\\DML\\x64\\DirectML.dll",
+      "sha256": "F97B69379ECBDBAB7E1DCD2B6170E7F285D367C86EE6718BC401C4D7CEF1275C"
+    },
+    {
+      "path": "Yohaku\\Content\\Paks\\global.ucas",
+      "sha256": "762F8DC4E548CE26521A2EE5BB6C96CF302F18A4B1D5A144588E603EB1C3A0A0"
+    },
+    {
+      "path": "Yohaku\\Content\\Paks\\global.utoc",
+      "sha256": "89606F95F91775138FB8644292200A3D6B110CD4A93989443ED8EF093569518E"
+    },
+    {
+      "path": "Yohaku\\Content\\Paks\\Yohaku-Windows.pak",
+      "sha256": "2A44220BD6D2C50145849CD6731DEA808C2EBD779E8DC98548286EF8276953C3"
+    },
+    {
+      "path": "Yohaku\\Content\\Paks\\Yohaku-Windows.ucas",
+      "sha256": "85C398E25038BB0C708C025567E58F47A89EA5532A8F5EFE0EDE65256BD69520"
+    },
+    {
+      "path": "Yohaku\\Content\\Paks\\Yohaku-Windows.utoc",
+      "sha256": "2D9D8AC299F17B92B5AF6610D44C61CAF823E9FCEF836A8E40271DE15FD7BA93"
+    }
+  ],
+  "retiredDirectory": "C:\\AI\\App_Dev\\YOHAKU\\build\\削除対象_windows-development_旧通常版",
+  "candidateHash": "05DD3052687B3091632F6ADADFC673006E181A13BE164632B132E3CBBA98A1AB"
+}

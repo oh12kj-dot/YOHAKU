@@ -1,0 +1,8 @@
+Collecting fast-simplification==0.2.0
+  Downloading fast_simplification-0.2.0-cp313-cp313-win_amd64.whl.metadata (9.8 kB)
+Downloading fast_simplification-0.2.0-cp313-cp313-win_amd64.whl (343 kB)
+Installing collected packages: fast-simplification
+Successfully installed fast-simplification-0.2.0
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: C:\AI\ComfyUI_windows_portable\python_embeded\python.exe -m pip install --upgrade pip

@@ -1,0 +1,1147 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" YohakuEditor Win64 Development -Project=C:\AI\App_Dev\YOHAKU\apps\ue\Yohaku.uproject -WaitMutex -NoHotReloadFromIDE -gather -NoUBA
+Log file: C:\Users\oh12k\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+UHT compiled-in object format Default
+Building YohakuEditor...
+===== Toolchain Information =====
+Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+Using Visual Studio 14.44.35227 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Upgrade]
+[Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6
+[Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_8;' in YohakuEditor.Target.cs.
+[Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[Upgrade]
+=================================
+Using Unreal Build Accelerator local executor to run 8 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 31.89 GB physical, 32.51 GB/110.02 GB committed
+  UBA Storage capacity 40 GB
+[1/8] Compile [x64] YohakuGameMode.cpp [NoUba]
+[2/8] Compile [x64] Module.Yohaku.gen.cpp [NoUba]
+[3/8] Compile [x64] RoomController.cpp [NoUba]
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomController.cpp(326,59): warning C4305: 'ﾈ￸ﾐﾔ': 'double' ﾂﾩﾂ￧ 'float' ﾂￖﾐ￘ﾂ￨ﾋlﾂ￟ﾂￜﾂﾷﾁB
+                     FColor(180, 215, 140), false, -1, 0, 1.1);
+                                                          ^
+[4/8] Compile [x64] RoomEditorWidget.cpp [NoUba]
+[5/8] Compile [x64] RoomSmoke.cpp [NoUba]
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(95,15): error C2872: 'FScene': ﾂﾠﾂﾢﾂￜﾂﾢﾂ￈ﾃVﾃﾓﾃ{ﾃﾋﾂￅﾂﾷﾁB
+        const FScene BeforeKeys = Document.Get();
+              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Classes\Engine\Level.h(324,15): note: 'FScene' ﾂￅﾂﾠﾂ￩ﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷﾁB
+	friend class FScene;
+	             ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: ﾂￜﾂﾽﾂￍ 'Yohaku::FScene'
+struct FScene
+       ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(95,22): error C2079: 'BeforeKeys' ﾂﾪ ﾖﾢﾒ￨ﾋ`ﾂￌ class 'FScene' ﾂￅﾎgﾗpﾂﾵﾂￄﾂﾢﾂￜﾂﾷﾁB
+        const FScene BeforeKeys = Document.Get();
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(96,85): error C2660: 'FInputKeyEventArgs::CreateSimulated': ﾊￖﾐﾔﾂ￉ 2 ﾌￂﾂￌﾈ￸ﾐﾔﾂ￰ﾎwﾒ￨ﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        auto Key = [this](FKey K, EInputEvent Event) { InputKey(FInputKeyEventArgs::CreateSimulated(K, Event)); };
+                                                                                    ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Public\InputKeyEventArgs.h(136,39): note: 'FInputKeyEventArgs::CreateSimulated' ﾂￌﾐ￩ﾌﾾﾂ￰ﾊmﾔFﾂﾵﾂￄﾂﾭﾂﾾﾂﾳﾂﾢ
+	static ENGINE_API FInputKeyEventArgs CreateSimulated(
+	                                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(96,85): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(FKey, EInputEvent)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+        auto Key = [this](FKey K, EInputEvent Event) { InputKey(FInputKeyEventArgs::CreateSimulated(K, Event)); };
+                                                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(99,15): error C2872: 'FScene': ﾂﾠﾂﾢﾂￜﾂﾢﾂ￈ﾃVﾃﾓﾃ{ﾃﾋﾂￅﾂﾷﾁB
+        const FScene Rotated = Document.Get();
+              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Engine\Classes\Engine\Level.h(324,15): note: 'FScene' ﾂￅﾂﾠﾂ￩ﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷﾁB
+	friend class FScene;
+	             ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: ﾂￜﾂﾽﾂￍ 'Yohaku::FScene'
+struct FScene
+       ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(99,22): error C2079: 'Rotated' ﾂﾪ ﾖﾢﾒ￨ﾋ`ﾂￌ class 'FScene' ﾂￅﾎgﾗpﾂﾵﾂￄﾂﾢﾂￜﾂﾷﾁB
+        const FScene Rotated = Document.Get();
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): error C2678: ﾓ￱ﾍﾀﾉﾉﾎZﾎq '==': ﾌ^ '<error type>' ﾂￌﾍﾶﾃIﾃyﾃﾉﾃﾓﾃhﾂ￰ﾈﾵﾂﾤﾉﾉﾎZﾎqﾂﾪﾌﾩﾂￂﾂﾩﾂ￨ﾂￜﾂﾹﾂ￱ (ﾂￜﾂﾽﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱) (ﾐVﾂﾵﾂﾢﾓﾮﾍ￬; ﾃwﾃﾋﾃvﾂ￰ﾎQﾏￆ)ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(36,10): note: 'bool Yohaku::FScene::operator ==(const Yohaku::FScene &) const' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+    bool operator==(const FScene &B) const
+         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool Yohaku::FScene::operator ==(const Yohaku::FScene &) const': ﾈ￸ﾐﾔ 2 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'Yohaku::FScene::FScene': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(40,1): note: 'Yohaku::FScene::FScene(Yohaku::FScene &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'Yohaku::FScene::FScene(Yohaku::FScene &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'Yohaku::FScene &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(40,1): note: ﾂￜﾂﾽﾂￍ 'Yohaku::FScene::FScene(const Yohaku::FScene &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'Yohaku::FScene::FScene(const Yohaku::FScene &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(159,22): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)'
+COREUOBJECT_API bool operator==(FRemoteWorkPriority Lhs, FRemoteWorkPriority Rhs);
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h(59,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)'
+bool operator==(const FShaderStatVariant& LHS, const FShaderStatVariant& RHS);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FShaderStatVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FShaderStatVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3569,13): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)'
+inline bool operator==(const FRayTracingGeometryInitializer& LHS, const FRayTracingGeometryInitializer& RHS)
+            ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(350,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const FString &)'
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const FString& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const JsonNumberValueVariants &,const FString &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(349,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)'
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const JsonNumberValueVariants& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(348,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)'
+JSON_API bool operator==(const JsonSimpleValueVariant& Lhs, const JsonSimpleValueVariant& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(348,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonSimpleValueVariant& Lhs, const JsonSimpleValueVariant& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(TVariant<bool,JsonNumberValueVariants,FString> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(TVariant<bool,JsonNumberValueVariants,FString> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,JsonNumberValueVariants,FString> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,JsonNumberValueVariants,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(const TVariant<bool,JsonNumberValueVariants,FString> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(const TVariant<bool,JsonNumberValueVariants,FString> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,JsonNumberValueVariants,FString> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,JsonNumberValueVariants,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(349,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const JsonNumberValueVariants& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(350,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const FString &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const FString& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const JsonNumberValueVariants &,const FString &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3569,13): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+inline bool operator==(const FRayTracingGeometryInitializer& LHS, const FRayTracingGeometryInitializer& RHS)
+            ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3566,1): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(FRayTracingGeometryInitializer &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(FRayTracingGeometryInitializer &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRayTracingGeometryInitializer &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3566,1): note: ﾂￜﾂﾽﾂￍ 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(const FRayTracingGeometryInitializer &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h(59,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const FShaderStatVariant& LHS, const FShaderStatVariant& RHS);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FShaderStatVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FShaderStatVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(TVariant<bool,float,int32,uint32,FString> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(TVariant<bool,float,int32,uint32,FString> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,float,int32,uint32,FString> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,float,int32,uint32,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<bool,float,int32,uint32,FString>::TVariant(const TVariant<bool,float,int32,uint32,FString> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(const TVariant<bool,float,int32,uint32,FString> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,float,int32,uint32,FString> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,float,int32,uint32,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(159,22): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+COREUOBJECT_API bool operator==(FRemoteWorkPriority Lhs, FRemoteWorkPriority Rhs);
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'FRemoteWorkPriority::FRemoteWorkPriority': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(153,1): note: 'FRemoteWorkPriority::FRemoteWorkPriority(FRemoteWorkPriority &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'FRemoteWorkPriority::FRemoteWorkPriority(FRemoteWorkPriority &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(153,1): note: ﾂￜﾂﾽﾂￍ 'FRemoteWorkPriority::FRemoteWorkPriority(const FRemoteWorkPriority &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'FRemoteWorkPriority::FRemoteWorkPriority(const FRemoteWorkPriority &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRemoteWorkPriority &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRemoteWorkPriority' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(386,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)'
+UE_FORCEINLINE_HINT bool operator==(TYPE_OF_NULLPTR, const TWeakFieldPtr<RhsType>& Rhs)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(376,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)'
+UE_FORCEINLINE_HINT bool operator==(const TWeakFieldPtr<LhsType>& Lhs, TYPE_OF_NULLPTR)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(38,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)'
+bool operator==(const LhsType* Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)': 'const LhsType *' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(31,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)'
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const RhsType* Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(24,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)'
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(209,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,int UE::Core::Private::FIncomplete::* )'
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, int UE::Core::Private::FIncomplete::* Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: 'ﾏﾉﾊ￺ﾉﾻﾒﾆ': '<error type>' ﾂﾩﾂ￧ 'int UE::Core::Private::FIncomplete::* ' ﾂ￉ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,33): note: ﾐﾮﾐﾔﾒlﾂﾩﾂ￧ pointer-to-member ﾒlﾂￖﾂￌﾕￏﾊﾷﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(190,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,const RhsType &)'
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, const RhsType& Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾊￖﾘAﾂﾷﾂ￩ﾐﾧﾖ￱ﾂﾪﾖﾞﾂﾽﾂﾳﾂ￪ﾂￄﾂﾢﾂￜﾂﾹﾂ￱
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,11): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<Yohaku::FScene,<error type>>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	         ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: 'UEOpEquals': 'Yohaku::FScene' ﾂￌﾃﾁﾃﾓﾃoﾁ[ﾂￅﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: 'Yohaku::FScene' ﾂￌﾐ￩ﾌﾾﾂ￰ﾊmﾔFﾂﾵﾂￄﾂﾭﾂﾾﾂﾳﾂﾢ
+struct FScene
+       ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,67): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<<error type>,Yohaku::FScene>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	                                                                 ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: '.UEOpEquals' ﾂￌﾍﾶﾑﾤﾂￍﾃNﾃﾉﾃXﾁAﾍ\ﾑﾢﾑￌﾁAﾋﾤﾗpﾑￌﾂￅﾂ￈ﾂﾯﾂ￪ﾂￎﾂ￈ﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: ﾌ^ﾂￍ '<error type>' ﾂￅﾂﾷ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(190,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,const RhsType &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, const RhsType& Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾊￖﾘAﾂﾷﾂ￩ﾐﾧﾖ￱ﾂﾪﾖﾞﾂﾽﾂﾳﾂ￪ﾂￄﾂﾢﾂￜﾂﾹﾂ￱
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,11): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<<error type>,Yohaku::FScene>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	         ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: '.UEOpEquals' ﾂￌﾍﾶﾑﾤﾂￍﾃNﾃﾉﾃXﾁAﾍ\ﾑﾢﾑￌﾁAﾋﾤﾗpﾑￌﾂￅﾂ￈ﾂﾯﾂ￪ﾂￎﾂ￈ﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: ﾌ^ﾂￍ '<error type>' ﾂￅﾂﾷ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,67): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<Yohaku::FScene,<error type>>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	                                                                 ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: 'UEOpEquals': 'Yohaku::FScene' ﾂￌﾃﾁﾃﾓﾃoﾁ[ﾂￅﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: 'Yohaku::FScene' ﾂￌﾐ￩ﾌﾾﾂ￰ﾊmﾔFﾂﾵﾂￄﾂﾭﾂﾾﾂﾳﾂﾢ
+struct FScene
+       ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(209,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,int UE::Core::Private::FIncomplete::* )' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, int UE::Core::Private::FIncomplete::* Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'ﾏﾉﾊ￺ﾉﾻﾒﾆ': 'const Yohaku::FScene' ﾂﾩﾂ￧ 'int UE::Core::Private::FIncomplete::* ' ﾂ￉ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(24,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(31,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const RhsType* Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(38,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const LhsType* Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)': 'const LhsType *' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(376,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+UE_FORCEINLINE_HINT bool operator==(const TWeakFieldPtr<LhsType>& Lhs, TYPE_OF_NULLPTR)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(386,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+UE_FORCEINLINE_HINT bool operator==(TYPE_OF_NULLPTR, const TWeakFieldPtr<RhsType>& Rhs)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == BeforeKeys, TEXT("Same-frame Ctrl+Z restores scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(105,27): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(const Yohaku::FScene, <error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): error C2678: ﾓ￱ﾍﾀﾉﾉﾎZﾎq '==': ﾌ^ '<error type>' ﾂￌﾍﾶﾃIﾃyﾃﾉﾃﾓﾃhﾂ￰ﾈﾵﾂﾤﾉﾉﾎZﾎqﾂﾪﾌﾩﾂￂﾂﾩﾂ￨ﾂￜﾂﾹﾂ￱ (ﾂￜﾂﾽﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱) (ﾐVﾂﾵﾂﾢﾓﾮﾍ￬; ﾃwﾃﾋﾃvﾂ￰ﾎQﾏￆ)ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(36,10): note: 'bool Yohaku::FScene::operator ==(const Yohaku::FScene &) const' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+    bool operator==(const FScene &B) const
+         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool Yohaku::FScene::operator ==(const Yohaku::FScene &) const': ﾈ￸ﾐﾔ 2 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'Yohaku::FScene::FScene': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(40,1): note: 'Yohaku::FScene::FScene(Yohaku::FScene &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'Yohaku::FScene::FScene(Yohaku::FScene &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'Yohaku::FScene &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(40,1): note: ﾂￜﾂﾽﾂￍ 'Yohaku::FScene::FScene(const Yohaku::FScene &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'Yohaku::FScene::FScene(const Yohaku::FScene &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(159,22): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)'
+COREUOBJECT_API bool operator==(FRemoteWorkPriority Lhs, FRemoteWorkPriority Rhs);
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h(59,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)'
+bool operator==(const FShaderStatVariant& LHS, const FShaderStatVariant& RHS);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FShaderStatVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FShaderStatVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3569,13): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)'
+inline bool operator==(const FRayTracingGeometryInitializer& LHS, const FRayTracingGeometryInitializer& RHS)
+            ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(350,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const FString &)'
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const FString& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const JsonNumberValueVariants &,const FString &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(349,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)'
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const JsonNumberValueVariants& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(348,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)'
+JSON_API bool operator==(const JsonSimpleValueVariant& Lhs, const JsonSimpleValueVariant& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(348,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonSimpleValueVariant& Lhs, const JsonSimpleValueVariant& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(TVariant<bool,JsonNumberValueVariants,FString> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(TVariant<bool,JsonNumberValueVariants,FString> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,JsonNumberValueVariants,FString> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,JsonNumberValueVariants,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(const TVariant<bool,JsonNumberValueVariants,FString> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(const TVariant<bool,JsonNumberValueVariants,FString> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,JsonNumberValueVariants,FString> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,JsonNumberValueVariants,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(349,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const JsonNumberValueVariants& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(350,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const FString &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const FString& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const JsonNumberValueVariants &,const FString &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3569,13): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+inline bool operator==(const FRayTracingGeometryInitializer& LHS, const FRayTracingGeometryInitializer& RHS)
+            ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3566,1): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(FRayTracingGeometryInitializer &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(FRayTracingGeometryInitializer &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRayTracingGeometryInitializer &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3566,1): note: ﾂￜﾂﾽﾂￍ 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(const FRayTracingGeometryInitializer &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h(59,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const FShaderStatVariant& LHS, const FShaderStatVariant& RHS);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FShaderStatVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FShaderStatVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(TVariant<bool,float,int32,uint32,FString> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(TVariant<bool,float,int32,uint32,FString> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,float,int32,uint32,FString> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,float,int32,uint32,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<bool,float,int32,uint32,FString>::TVariant(const TVariant<bool,float,int32,uint32,FString> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(const TVariant<bool,float,int32,uint32,FString> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,float,int32,uint32,FString> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,float,int32,uint32,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(159,22): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+COREUOBJECT_API bool operator==(FRemoteWorkPriority Lhs, FRemoteWorkPriority Rhs);
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'FRemoteWorkPriority::FRemoteWorkPriority': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(153,1): note: 'FRemoteWorkPriority::FRemoteWorkPriority(FRemoteWorkPriority &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'FRemoteWorkPriority::FRemoteWorkPriority(FRemoteWorkPriority &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(153,1): note: ﾂￜﾂﾽﾂￍ 'FRemoteWorkPriority::FRemoteWorkPriority(const FRemoteWorkPriority &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'FRemoteWorkPriority::FRemoteWorkPriority(const FRemoteWorkPriority &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRemoteWorkPriority &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRemoteWorkPriority' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(386,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)'
+UE_FORCEINLINE_HINT bool operator==(TYPE_OF_NULLPTR, const TWeakFieldPtr<RhsType>& Rhs)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(376,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)'
+UE_FORCEINLINE_HINT bool operator==(const TWeakFieldPtr<LhsType>& Lhs, TYPE_OF_NULLPTR)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(38,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)'
+bool operator==(const LhsType* Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)': 'const LhsType *' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(31,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)'
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const RhsType* Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(24,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)'
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(209,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,int UE::Core::Private::FIncomplete::* )'
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, int UE::Core::Private::FIncomplete::* Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: 'ﾏﾉﾊ￺ﾉﾻﾒﾆ': '<error type>' ﾂﾩﾂ￧ 'int UE::Core::Private::FIncomplete::* ' ﾂ￉ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                                ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,33): note: ﾐﾮﾐﾔﾒlﾂﾩﾂ￧ pointer-to-member ﾒlﾂￖﾂￌﾕￏﾊﾷﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(190,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,const RhsType &)'
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, const RhsType& Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾊￖﾘAﾂﾷﾂ￩ﾐﾧﾖ￱ﾂﾪﾖﾞﾂﾽﾂﾳﾂ￪ﾂￄﾂﾢﾂￜﾂﾹﾂ￱
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,11): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<Yohaku::FScene,<error type>>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	         ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: 'UEOpEquals': 'Yohaku::FScene' ﾂￌﾃﾁﾃﾓﾃoﾁ[ﾂￅﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: 'Yohaku::FScene' ﾂￌﾐ￩ﾌﾾﾂ￰ﾊmﾔFﾂﾵﾂￄﾂﾭﾂﾾﾂﾳﾂﾢ
+struct FScene
+       ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,67): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<<error type>,Yohaku::FScene>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	                                                                 ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: '.UEOpEquals' ﾂￌﾍﾶﾑﾤﾂￍﾃNﾃﾉﾃXﾁAﾍ\ﾑﾢﾑￌﾁAﾋﾤﾗpﾑￌﾂￅﾂ￈ﾂﾯﾂ￪ﾂￎﾂ￈ﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: ﾌ^ﾂￍ '<error type>' ﾂￅﾂﾷ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(190,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,const RhsType &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, const RhsType& Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾊￖﾘAﾂﾷﾂ￩ﾐﾧﾖ￱ﾂﾪﾖﾞﾂﾽﾂﾳﾂ￪ﾂￄﾂﾢﾂￜﾂﾹﾂ￱
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,11): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<<error type>,Yohaku::FScene>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	         ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: '.UEOpEquals' ﾂￌﾍﾶﾑﾤﾂￍﾃNﾃﾉﾃXﾁAﾍ\ﾑﾢﾑￌﾁAﾋﾤﾗpﾑￌﾂￅﾂ￈ﾂﾯﾂ￪ﾂￎﾂ￈ﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: ﾌ^ﾂￍ '<error type>' ﾂￅﾂﾷ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,67): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<Yohaku::FScene,<error type>>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	                                                                 ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: 'UEOpEquals': 'Yohaku::FScene' ﾂￌﾃﾁﾃﾓﾃoﾁ[ﾂￅﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: 'Yohaku::FScene' ﾂￌﾐ￩ﾌﾾﾂ￰ﾊmﾔFﾂﾵﾂￄﾂﾭﾂﾾﾂﾳﾂﾢ
+struct FScene
+       ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(209,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,int UE::Core::Private::FIncomplete::* )' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, int UE::Core::Private::FIncomplete::* Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'ﾏﾉﾊ￺ﾉﾻﾒﾆ': 'const Yohaku::FScene' ﾂﾩﾂ￧ 'int UE::Core::Private::FIncomplete::* ' ﾂ￉ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(24,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(31,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const RhsType* Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(38,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const LhsType* Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)': 'const LhsType *' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(376,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+UE_FORCEINLINE_HINT bool operator==(const TWeakFieldPtr<LhsType>& Lhs, TYPE_OF_NULLPTR)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(386,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+UE_FORCEINLINE_HINT bool operator==(TYPE_OF_NULLPTR, const TWeakFieldPtr<RhsType>& Rhs)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(Document.Get() == Rotated, TEXT("Same-frame right Ctrl+Shift+Z redoes scene"));
+                          ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(112,27): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(const Yohaku::FScene, <error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): error C2678: ﾓ￱ﾍﾀﾉﾉﾎZﾎq '==': ﾌ^ '<error type>' ﾂￌﾍﾶﾃIﾃyﾃﾉﾃﾓﾃhﾂ￰ﾈﾵﾂﾤﾉﾉﾎZﾎqﾂﾪﾌﾩﾂￂﾂﾩﾂ￨ﾂￜﾂﾹﾂ￱ (ﾂￜﾂﾽﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱) (ﾐVﾂﾵﾂﾢﾓﾮﾍ￬; ﾃwﾃﾋﾃvﾂ￰ﾎQﾏￆ)ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(36,10): note: 'bool Yohaku::FScene::operator ==(const Yohaku::FScene &) const' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+    bool operator==(const FScene &B) const
+         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool Yohaku::FScene::operator ==(const Yohaku::FScene &) const': ﾈ￸ﾐﾔ 2 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'Yohaku::FScene::FScene': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(40,1): note: 'Yohaku::FScene::FScene(Yohaku::FScene &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'Yohaku::FScene::FScene(Yohaku::FScene &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'Yohaku::FScene &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(40,1): note: ﾂￜﾂﾽﾂￍ 'Yohaku::FScene::FScene(const Yohaku::FScene &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'Yohaku::FScene::FScene(const Yohaku::FScene &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const Yohaku::FScene' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(159,22): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)'
+COREUOBJECT_API bool operator==(FRemoteWorkPriority Lhs, FRemoteWorkPriority Rhs);
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h(59,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)'
+bool operator==(const FShaderStatVariant& LHS, const FShaderStatVariant& RHS);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FShaderStatVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FShaderStatVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3569,13): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)'
+inline bool operator==(const FRayTracingGeometryInitializer& LHS, const FRayTracingGeometryInitializer& RHS)
+            ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(350,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const FString &)'
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const FString& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const JsonNumberValueVariants &,const FString &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(349,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)'
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const JsonNumberValueVariants& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(348,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)'
+JSON_API bool operator==(const JsonSimpleValueVariant& Lhs, const JsonSimpleValueVariant& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾗﾝﾗR: 'const Yohaku::FScene' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(348,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonSimpleValueVariant& Lhs, const JsonSimpleValueVariant& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const JsonSimpleValueVariant &,const JsonSimpleValueVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonSimpleValueVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(TVariant<bool,JsonNumberValueVariants,FString> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(TVariant<bool,JsonNumberValueVariants,FString> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,JsonNumberValueVariants,FString> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,JsonNumberValueVariants,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(const TVariant<bool,JsonNumberValueVariants,FString> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<bool,JsonNumberValueVariants,FString>::TVariant(const TVariant<bool,JsonNumberValueVariants,FString> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,JsonNumberValueVariants,FString> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,JsonNumberValueVariants,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(349,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const JsonNumberValueVariants& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const JsonNumberValueVariants &,const JsonNumberValueVariants &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<int32,uint32,int64,float,double>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Json\Public\Dom\JsonValue.h(350,15): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const JsonNumberValueVariants &,const FString &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+JSON_API bool operator==(const JsonNumberValueVariants& Lhs, const FString& Rhs);
+              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const JsonNumberValueVariants &,const FString &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const JsonNumberValueVariants' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<int32,uint32,int64,float,double>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(TVariant<int32,uint32,int64,float,double> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<int32,uint32,int64,float,double>::TVariant(const TVariant<int32,uint32,int64,float,double> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<int32,uint32,int64,float,double>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3569,13): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+inline bool operator==(const FRayTracingGeometryInitializer& LHS, const FRayTracingGeometryInitializer& RHS)
+            ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const FRayTracingGeometryInitializer &,const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3566,1): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(FRayTracingGeometryInitializer &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(FRayTracingGeometryInitializer &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRayTracingGeometryInitializer &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RHI\Public\RHIResources.h(3566,1): note: ﾂￜﾂﾽﾂￍ 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(const FRayTracingGeometryInitializer &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'FRayTracingGeometryInitializer::FRayTracingGeometryInitializer(const FRayTracingGeometryInitializer &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRayTracingGeometryInitializer' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h(59,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const FShaderStatVariant& LHS, const FShaderStatVariant& RHS);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const FShaderStatVariant &,const FShaderStatVariant &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FShaderStatVariant &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FShaderStatVariant' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(84,16): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(TVariant<bool,float,int32,uint32,FString> &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+	[[nodiscard]] TVariant(TVariant&& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(TVariant<bool,float,int32,uint32,FString> &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,float,int32,uint32,FString> &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'TVariant<bool,float,int32,uint32,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\TVariant.h(77,16): note: ﾂￜﾂﾽﾂￍ 'TVariant<bool,float,int32,uint32,FString>::TVariant(const TVariant<bool,float,int32,uint32,FString> &)'
+	[[nodiscard]] TVariant(const TVariant& Other)
+	              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'TVariant<bool,float,int32,uint32,FString>::TVariant(const TVariant<bool,float,int32,uint32,FString> &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,float,int32,uint32,FString> &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const TVariant<bool,float,int32,uint32,FString>' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(159,22): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+COREUOBJECT_API bool operator==(FRemoteWorkPriority Lhs, FRemoteWorkPriority Rhs);
+                     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(FRemoteWorkPriority,FRemoteWorkPriority)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'FRemoteWorkPriority::FRemoteWorkPriority': ﾃIﾁ[ﾃoﾁ[ﾃﾍﾁ[ﾃhﾂﾳﾂ￪ﾂﾽﾊￖﾐﾔﾂￅﾂﾷﾂￗﾂￄﾂￌﾈ￸ﾐﾔﾂￌﾌ^ﾂ￰ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(153,1): note: 'FRemoteWorkPriority::FRemoteWorkPriority(FRemoteWorkPriority &&)' ﾂￌﾉￂﾔ\ﾐﾫﾂﾪﾂﾠﾂ￨ﾂￜﾂﾷ
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'FRemoteWorkPriority::FRemoteWorkPriority(FRemoteWorkPriority &&)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority &&' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'FRemoteWorkPriority' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\RemoteExecutor.h(153,1): note: ﾂￜﾂﾽﾂￍ 'FRemoteWorkPriority::FRemoteWorkPriority(const FRemoteWorkPriority &)'
+};
+^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'FRemoteWorkPriority::FRemoteWorkPriority(const FRemoteWorkPriority &)': ﾈ￸ﾐﾔ 1 ﾂ￰ '<error type>' ﾂﾩﾂ￧ 'const FRemoteWorkPriority &' ﾂￖﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾗﾝﾗR: '<error type>' ﾂﾩﾂ￧ 'const FRemoteWorkPriority' ﾂￖﾂￍﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾕￏﾊﾷﾂ￉ﾂￍ 2 ﾔￔﾖￚﾂￌﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂￜﾂﾽﾂￍﾃRﾃﾓﾃXﾃgﾃﾉﾃNﾃ^ﾁ[ﾂﾪﾕKﾗvﾂￅﾂﾷﾁB
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(<error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(386,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)'
+UE_FORCEINLINE_HINT bool operator==(TYPE_OF_NULLPTR, const TWeakFieldPtr<RhsType>& Rhs)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(376,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)'
+UE_FORCEINLINE_HINT bool operator==(const TWeakFieldPtr<LhsType>& Lhs, TYPE_OF_NULLPTR)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(38,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)'
+bool operator==(const LhsType* Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)': 'const LhsType *' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(31,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)'
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const RhsType* Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(24,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)'
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(209,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,int UE::Core::Private::FIncomplete::* )'
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, int UE::Core::Private::FIncomplete::* Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: 'ﾏﾉﾊ￺ﾉﾻﾒﾆ': '<error type>' ﾂﾩﾂ￧ 'int UE::Core::Private::FIncomplete::* ' ﾂ￉ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                                    ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,53): note: ﾐﾮﾐﾔﾒlﾂﾩﾂ￧ pointer-to-member ﾒlﾂￖﾂￌﾕￏﾊﾷﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(190,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,const RhsType &)'
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, const RhsType& Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾊￖﾘAﾂﾷﾂ￩ﾐﾧﾖ￱ﾂﾪﾖﾞﾂﾽﾂﾳﾂ￪ﾂￄﾂﾢﾂￜﾂﾹﾂ￱
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,11): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<Yohaku::FScene,<error type>>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	         ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: 'UEOpEquals': 'Yohaku::FScene' ﾂￌﾃﾁﾃﾓﾃoﾁ[ﾂￅﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: 'Yohaku::FScene' ﾂￌﾐ￩ﾌﾾﾂ￰ﾊmﾔFﾂﾵﾂￄﾂﾭﾂﾾﾂﾳﾂﾢ
+struct FScene
+       ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,67): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<<error type>,Yohaku::FScene>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	                                                                 ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: '.UEOpEquals' ﾂￌﾍﾶﾑﾤﾂￍﾃNﾃﾉﾃXﾁAﾍ\ﾑﾢﾑￌﾁAﾋﾤﾗpﾑￌﾂￅﾂ￈ﾂﾯﾂ￪ﾂￎﾂ￈ﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: ﾌ^ﾂￍ '<error type>' ﾂￅﾂﾷ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(190,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,const RhsType &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, const RhsType& Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾊￖﾘAﾂﾷﾂ￩ﾐﾧﾖ￱ﾂﾪﾖﾞﾂﾽﾂﾳﾂ￪ﾂￄﾂﾢﾂￜﾂﾹﾂ￱
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,11): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<<error type>,Yohaku::FScene>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	         ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: '.UEOpEquals' ﾂￌﾍﾶﾑﾤﾂￍﾃNﾃﾉﾃXﾁAﾍ\ﾑﾢﾑￌﾁAﾋﾤﾗpﾑￌﾂￅﾂ￈ﾂﾯﾂ￪ﾂￎﾂ￈ﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: ﾌ^ﾂￍ '<error type>' ﾂￅﾂﾷ
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(189,67): note: ﾊTﾔO 'UE::Core::Private::CWithUEOpEquals<Yohaku::FScene,<error type>>' ﾂﾪ false ﾂￆﾕ]ﾉ﾿ﾂﾳﾂ￪ﾂￜﾂﾵﾂﾽ
+	requires UE::Core::Private::CWithUEOpEquals<LhsType, RhsType> || UE::Core::Private::CWithUEOpEquals<RhsType, LhsType>
+	                                                                 ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(96,9): note: 'UEOpEquals': 'Yohaku::FScene' ﾂￌﾃﾁﾃﾓﾃoﾁ[ﾂￅﾂￍﾂﾠﾂ￨ﾂￜﾂﾹﾂ￱
+		{ Lhs.UEOpEquals(Rhs) } -> UE::CSameAs<bool>;
+		      ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\YohakuCore\Public\SceneDocument.h(31,8): note: 'Yohaku::FScene' ﾂￌﾐ￩ﾌﾾﾂ￰ﾊmﾔFﾂﾵﾂￄﾂﾭﾂﾾﾂﾳﾂﾢ
+struct FScene
+       ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\Core\Public\Misc\UEOps.h(209,41): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType &,int UE::Core::Private::FIncomplete::* )' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+[[nodiscard]] UE_REWRITE constexpr bool operator==(const LhsType& Lhs, int UE::Core::Private::FIncomplete::* Rhs)
+                                        ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'ﾏﾉﾊ￺ﾉﾻﾒﾆ': 'const Yohaku::FScene' ﾂﾩﾂ￧ 'int UE::Core::Private::FIncomplete::* ' ﾂ￉ﾕￏﾊﾷﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾁB
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾂﾱﾂￌﾕￏﾊﾷﾂ￰ﾎ￀ﾍsﾉￂﾔ\ﾂ￈ﾃﾆﾁ[ﾃUﾁ[ﾒ￨ﾋ`ﾕￏﾊﾷﾉﾉﾎZﾎqﾂﾪﾂ￈ﾂﾢﾂﾩﾁAﾂￜﾂﾽﾂￍﾉﾉﾎZﾎqﾂ￰ﾌￄﾂ￑ﾏoﾂﾹﾂￜﾂﾹﾂ￱ﾁB
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(24,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const TWeakFieldPtr<T> &,const TWeakFieldPtr<RhsType> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(31,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const TWeakFieldPtr<LhsType>& Lhs, const RhsType* Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const TWeakFieldPtr<T> &,const RhsType *)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(38,6): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+bool operator==(const LhsType* Lhs, const TWeakFieldPtr<RhsType>& Rhs);
+     ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const LhsType *,const TWeakFieldPtr<RhsType> &)': 'const LhsType *' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(376,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+UE_FORCEINLINE_HINT bool operator==(const TWeakFieldPtr<LhsType>& Lhs, TYPE_OF_NULLPTR)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(const TWeakFieldPtr<T> &,TYPE_OF_NULLPTR)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ '<error type>' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\Program Files\Epic Games\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\WeakFieldPtr.h(386,26): note: ﾂￜﾂﾽﾂￍ 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)' [ﾍﾇﾐﾬﾂﾳﾂ￪ﾂﾽﾎﾮ 'y = = x']
+UE_FORCEINLINE_HINT bool operator==(TYPE_OF_NULLPTR, const TWeakFieldPtr<RhsType>& Rhs)
+                         ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: 'bool operator ==(TYPE_OF_NULLPTR,const TWeakFieldPtr<T> &)': 'const TWeakFieldPtr<T> &' ﾂￌ ﾃeﾃﾓﾃvﾃﾌﾁ[ﾃg ﾈ￸ﾐﾔﾂ￰ 'const Yohaku::FScene' ﾂﾩﾂ￧ﾐﾄﾑﾪﾂￅﾂﾫﾂￜﾂﾹﾂ￱ﾂￅﾂﾵﾂﾽ
+        Check(!IsInteracting() && Document.Get() == BeforeKeys && ModifierKeys.IsEmpty(),
+                                              ^
+C:\AI\App_Dev\YOHAKU\apps\ue\Source\Yohaku\Private\RoomSmoke.cpp(119,47): note: ﾈ￸ﾐﾔﾃﾊﾃXﾃg '(const Yohaku::FScene, <error type>)' ﾂ￰ﾈ￪ﾒvﾂﾳﾂﾹﾂ￦ﾂﾤﾂￆﾂﾵﾂￄﾂﾢﾂ￩ﾂￆﾂﾫ
+Total time in Unreal Build Accelerator local executor: 11.67 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 14.80 seconds
+Trace written to file C:\Users\oh12k\AppData\Local\UnrealBuildTool\Trace.uba with size 16.8kb
+Native editor build failed
+At C:\AI\App_Dev\YOHAKU\tools\build-native.ps1:7 char:25
++ if($LASTEXITCODE -ne 0){throw 'Native editor build failed'}
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Native editor build failed:String) [], RuntimeException
+    + FullyQualifiedErrorId : Native editor build failed
+ 

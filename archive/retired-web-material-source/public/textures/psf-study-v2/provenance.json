@@ -1,0 +1,33 @@
+{
+  "generator": "built-in image_gen",
+  "modelRevision": 2,
+  "role": "reference-guided albedo approximation, not a measured fabric scan",
+  "records": [
+    {
+      "file": "apps/web/public/textures/psf-study-v2/brown-albedo.png",
+      "sha256": "d8fdc6c45b41d2795da5d00fc69c8d91ab71b475bc50c801778ee7ca97a99cb4",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 3543917
+    },
+    {
+      "file": "apps/web/public/textures/psf-study-v2/blue-gray-albedo.png",
+      "sha256": "5c66dc20357abb2bc620f31e4c309bb696880abaa224d99cfaa6708d3afd7ff4",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 3162368
+    }
+  ],
+  "referencePhotos": [
+    "artifacts/reference/psf-1.jpg",
+    "artifacts/reference/detail-18.jpg",
+    "artifacts/reference/detail-23.jpg",
+    "artifacts/reference/detail-26.jpg"
+  ],
+  "derivedMaps": "Normal and roughness maps derived in browser from albedo; inferred, not measured",
+  "promptSet": "docs/素材生成_PSFSofa_v2.md"
+}

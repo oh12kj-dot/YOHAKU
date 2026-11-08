@@ -1,0 +1,89 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "KJPC",
+			"instance": "D86E43514EA8BD7CD6C1E0A9C4420156",
+			"instanceName": "KJPC-36168",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9711] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Ti",
+			"cPUModel": "AMD Ryzen 7 5700X 8-Core Processor             ",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.08-07.39.22",
+	"succeeded": 4,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.18300971388816833,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "ProductSource",
+			"fullTestPath": "Yohaku.Core.ProductSource",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D86E43514EA8BD7CD6C1E0A9C4420156"
+			],
+			"duration": 0.042886503040790558,
+			"dateTime": "2026.11.08-07.39.21",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SceneContract",
+			"fullTestPath": "Yohaku.Core.SceneContract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D86E43514EA8BD7CD6C1E0A9C4420156"
+			],
+			"duration": 0.0080708004534244537,
+			"dateTime": "2026.11.08-07.39.21",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProductCandidates",
+			"fullTestPath": "Yohaku.Native.ProductCandidates",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D86E43514EA8BD7CD6C1E0A9C4420156"
+			],
+			"duration": 0.12354600429534912,
+			"dateTime": "2026.11.08-07.39.22",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProductResearchState",
+			"fullTestPath": "Yohaku.Native.ProductResearchState",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D86E43514EA8BD7CD6C1E0A9C4420156"
+			],
+			"duration": 0.0085064023733139038,
+			"dateTime": "2026.11.08-07.39.22",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

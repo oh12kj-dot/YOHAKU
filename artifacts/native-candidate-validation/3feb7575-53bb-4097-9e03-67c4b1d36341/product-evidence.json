@@ -1,0 +1,7 @@
+{
+	"passed": true,
+	"sceneDirtyAndHistoryUnchanged": true,
+	"candidateSaveOrOfflineReloadPassed": true,
+	"status": "保存済みの掲載情報（未照合）・保存日時 UTC：2026-11-08T07:40:54.655Z",
+	"product": "{\r\n\t\"productId\": \"106294\",\r\n\t\"name\": \"JOURNAL STANDARD FURNITURE PSF SOFA 2P\",\r\n\t\"brand\": \"JOURNAL STANDARD FURNITURE\",\r\n\t\"sourceUrl\": \"https://flymee.jp/product/106294/?pi_id=326211\",\r\n\t\"retrievedAt\": \"2026-11-08T07:40:54.653Z\",\r\n\t\"contentHash\": \"f969ad8e76f937ac99b613ec1d1470918f1840559807cfe597625c5d9836760a\",\r\n\t\"dimensionStatus\": \"single-source-unverified\",\r\n\t\"modelStatus\": \"not-generated\",\r\n\t\"alternateConfiguration\": \"座面高：41cm\\r\\nアーム高：55cm\\r\\nロータイプ脚部使用時：高さ70cm / 座面高29cm\",\r\n\t\"dimensions\":\r\n\t{\r\n\t\t\"widthMm\": 1500,\r\n\t\t\"depthMm\": 870,\r\n\t\t\"heightMm\": 820\r\n\t},\r\n\t\"variants\": [\r\n\t\t{\r\n\t\t\t\"id\": \"27425\",\r\n\t\t\t\"name\": \"ブラウン\",\r\n\t\t\t\"imageUrl\": \"https://static2.flymee.jp/product_images/dfad-106294/202007061231396401.jpg\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"id\": \"27426\",\r\n\t\t\t\"name\": \"ブルーグレー\",\r\n\t\t\t\"imageUrl\": \"https://static2.flymee.jp/product_images/dfad-106294/202411120944381564.jpg\"\r\n\t\t}\r\n\t]\r\n}"
+}

@@ -1,0 +1,59 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "KJPC",
+			"instance": "3EC64C74464109F673B4F89DB31A51D4",
+			"instanceName": "KJPC-24596",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9711] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Ti",
+			"cPUModel": "AMD Ryzen 7 5700X 8-Core Processor             ",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.08-04.38.12",
+	"succeeded": 2,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.07756979763507843,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "ProductSource",
+			"fullTestPath": "Yohaku.Core.ProductSource",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"3EC64C74464109F673B4F89DB31A51D4"
+			],
+			"duration": 0.069379396736621857,
+			"dateTime": "2026.11.08-04.38.12",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SceneContract",
+			"fullTestPath": "Yohaku.Core.SceneContract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"3EC64C74464109F673B4F89DB31A51D4"
+			],
+			"duration": 0.008190397173166275,
+			"dateTime": "2026.11.08-04.38.12",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

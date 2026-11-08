@@ -1,0 +1,716 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "source": "C:\\AI\\App_Dev\\YOHAKU\\experiments\\ue5-sofa\\material-source-v2\\sofa-geometry-only.glb",
+  "source_sha256": "d47372db2a122c06d0d325181b98f9b93206c52b914b17ac3b92374997c40e17",
+  "source_provenance": "photo-referenced-code-model; unvalidated",
+  "bounds_cm": {
+    "min": [
+      -75.00000047683716,
+      -43.50000002384186,
+      0.0
+    ],
+    "max": [
+      75.00000047683716,
+      43.50000152587891,
+      82.00000041723251
+    ],
+    "size": [
+      150.00000095367432,
+      87.00000154972076,
+      82.00000041723251
+    ]
+  },
+  "mesh_actors": [
+    {
+      "label": "upholstered-base",
+      "center_cm": [
+        0.0,
+        0.0,
+        20.5
+      ],
+      "extent_cm": [
+        74.5,
+        42.75,
+        8.5
+      ]
+    },
+    {
+      "label": "rear-support-panel-photo-referenced",
+      "center_cm": [
+        0.0,
+        -37.5,
+        40.5
+      ],
+      "extent_cm": [
+        61.5,
+        6.0,
+        28.5
+      ]
+    },
+    {
+      "label": "left-arm",
+      "center_cm": [
+        -68.25,
+        7.510185255910073e-07,
+        33.5003604888916
+      ],
+      "extent_cm": [
+        6.750000476837158,
+        43.50000077486038,
+        21.5003604888916
+      ]
+    },
+    {
+      "label": "arm-shoulder-stitch--1",
+      "center_cm": [
+        -74.4000015258789,
+        0.0,
+        50.80477333068848
+      ],
+      "extent_cm": [
+        0.04755401611328125,
+        39.5,
+        0.04522514343261719
+      ]
+    },
+    {
+      "label": "right-arm",
+      "center_cm": [
+        68.25,
+        7.510185255910073e-07,
+        33.5003604888916
+      ],
+      "extent_cm": [
+        6.750000476837158,
+        43.50000077486038,
+        21.5003604888916
+      ]
+    },
+    {
+      "label": "arm-shoulder-stitch-1",
+      "center_cm": [
+        74.4000015258789,
+        0.0,
+        50.80477333068848
+      ],
+      "extent_cm": [
+        0.04755401611328125,
+        39.5,
+        0.04522514343261719
+      ]
+    },
+    {
+      "label": "single-seat-cushion",
+      "center_cm": [
+        0.0,
+        8.5,
+        34.566644966602325
+      ],
+      "extent_cm": [
+        62.0,
+        34.5,
+        6.43335485458374
+      ]
+    },
+    {
+      "label": "seat-quilt--0_31--0_001",
+      "center_cm": [
+        -31.095989227294922,
+        12.001059532165527,
+        40.39218711853027
+      ],
+      "extent_cm": [
+        0.037990570068359375,
+        28.001770973205566,
+        0.29569435119628906
+      ]
+    },
+    {
+      "label": "seat-quilt--0_31-0_001",
+      "center_cm": [
+        -30.8959903717041,
+        12.001059532165527,
+        40.39308547973633
+      ],
+      "extent_cm": [
+        0.03798866271972656,
+        28.001774787902832,
+        0.29615020751953125
+      ]
+    },
+    {
+      "label": "seat-quilt-0--0_001",
+      "center_cm": [
+        -0.09598935395479202,
+        12.000919342041016,
+        40.45643997192383
+      ],
+      "extent_cm": [
+        0.037989355623722076,
+        28.002113342285156,
+        0.3406944274902344
+      ]
+    },
+    {
+      "label": "seat-quilt-0-0_001",
+      "center_cm": [
+        0.10401064530014992,
+        12.000919342041016,
+        40.45643997192383
+      ],
+      "extent_cm": [
+        0.037989359349012375,
+        28.002113342285156,
+        0.3406944274902344
+      ]
+    },
+    {
+      "label": "seat-quilt-0_31--0_001",
+      "center_cm": [
+        30.90400981903076,
+        12.001059532165527,
+        40.39308547973633
+      ],
+      "extent_cm": [
+        0.03798961639404297,
+        28.001774787902832,
+        0.29615020751953125
+      ]
+    },
+    {
+      "label": "seat-quilt-0_31-0_001",
+      "center_cm": [
+        31.104010581970215,
+        12.001059532165527,
+        40.39218711853027
+      ],
+      "extent_cm": [
+        0.03798961639404297,
+        28.001770973205566,
+        0.29569435119628906
+      ]
+    },
+    {
+      "label": "seat-cross-quilt",
+      "center_cm": [
+        0.0,
+        12.004297256469727,
+        40.32548904418945
+      ],
+      "extent_cm": [
+        59.5031623840332,
+        0.04070281982421875,
+        0.4485130310058594
+      ]
+    },
+    {
+      "label": "seat-front-piping",
+      "center_cm": [
+        0.0,
+        42.95950126647949,
+        37.57332420349121
+      ],
+      "extent_cm": [
+        59.000247955322266,
+        0.07950019836425781,
+        0.1554737091064453
+      ]
+    },
+    {
+      "label": "left-back-cushion",
+      "center_cm": [
+        -31.1,
+        -28.917554140090942,
+        61.250381886959076
+      ],
+      "extent_cm": [
+        31.35000228881836,
+        13.582446098327637,
+        20.74961853027344
+      ]
+    },
+    {
+      "label": "back-cushion-piping--1",
+      "center_cm": [
+        -31.099889636039734,
+        -21.655567169189453,
+        61.207855224609375
+      ],
+      "extent_cm": [
+        30.15799915790558,
+        4.478294372558594,
+        19.794174194335938
+      ]
+    },
+    {
+      "label": "right-back-cushion",
+      "center_cm": [
+        31.1,
+        -28.917555570602417,
+        61.250458121299744
+      ],
+      "extent_cm": [
+        31.35000228881836,
+        13.582444667816162,
+        20.749541282653812
+      ]
+    },
+    {
+      "label": "back-cushion-piping-1",
+      "center_cm": [
+        31.100072979927063,
+        -21.66645336151123,
+        61.181583404541016
+      ],
+      "extent_cm": [
+        30.15779674053192,
+        4.483429908752441,
+        19.767993927001953
+      ]
+    },
+    {
+      "label": "iron-leg",
+      "center_cm": [
+        -51.5,
+        -35.0,
+        6.25
+      ],
+      "extent_cm": [
+        1.3000000715255737,
+        1.3000000715255737,
+        5.75
+      ]
+    },
+    {
+      "label": "rubber-foot",
+      "center_cm": [
+        -51.5,
+        -35.0,
+        0.5
+      ],
+      "extent_cm": [
+        1.25,
+        1.25,
+        0.5
+      ]
+    },
+    {
+      "label": "iron-leg_bac3687f7485cf99c76fa3af0249e381",
+      "center_cm": [
+        -51.5,
+        35.0,
+        6.25
+      ],
+      "extent_cm": [
+        1.3000000715255737,
+        1.3000000715255737,
+        5.75
+      ]
+    },
+    {
+      "label": "rubber-foot_5e162c486bff3de2f21b13c127d5d3c0",
+      "center_cm": [
+        -51.5,
+        35.0,
+        0.5
+      ],
+      "extent_cm": [
+        1.25,
+        1.25,
+        0.5
+      ]
+    },
+    {
+      "label": "iron-leg_0d4de5b992c8906871e845b6fc7368e1",
+      "center_cm": [
+        51.5,
+        -35.0,
+        6.25
+      ],
+      "extent_cm": [
+        1.3000000715255737,
+        1.3000000715255737,
+        5.75
+      ]
+    },
+    {
+      "label": "rubber-foot_75d0762ac32edc87193dd203a2333e78",
+      "center_cm": [
+        51.5,
+        -35.0,
+        0.5
+      ],
+      "extent_cm": [
+        1.25,
+        1.25,
+        0.5
+      ]
+    },
+    {
+      "label": "iron-leg_6667e8ada727de00250e9d5a7238caa2",
+      "center_cm": [
+        51.5,
+        35.0,
+        6.25
+      ],
+      "extent_cm": [
+        1.3000000715255737,
+        1.3000000715255737,
+        5.75
+      ]
+    },
+    {
+      "label": "rubber-foot_822bd5b33f469c4a824d698f25aba074",
+      "center_cm": [
+        51.5,
+        35.0,
+        0.5
+      ],
+      "extent_cm": [
+        1.25,
+        1.25,
+        0.5
+      ]
+    },
+    {
+      "label": "power-panel-approximation",
+      "center_cm": [
+        0.0,
+        43.05000000223517,
+        20.7
+      ],
+      "extent_cm": [
+        7.870150566101074,
+        0.2500000037252903,
+        1.4199999570846558
+      ]
+    },
+    {
+      "label": "socket-well",
+      "center_cm": [
+        -4.3,
+        43.4,
+        20.7
+      ],
+      "extent_cm": [
+        1.5499999523162842,
+        0.02500000037252903,
+        0.8500000238418579
+      ]
+    },
+    {
+      "label": "socket-slot",
+      "center_cm": [
+        -5.2,
+        43.44,
+        20.7
+      ],
+      "extent_cm": [
+        0.14000000059604645,
+        0.015000000596046448,
+        0.5
+      ]
+    },
+    {
+      "label": "socket-slot_aed5863e22b2208fd817d0c82faab324",
+      "center_cm": [
+        -3.3999999999999995,
+        43.44,
+        20.7
+      ],
+      "extent_cm": [
+        0.14000000059604645,
+        0.015000000596046448,
+        0.5
+      ]
+    },
+    {
+      "label": "socket-well_05241ba1226a5af2c1edfc2ce18192b1",
+      "center_cm": [
+        0.19999999999999996,
+        43.4,
+        20.7
+      ],
+      "extent_cm": [
+        1.5499999523162842,
+        0.02500000037252903,
+        0.8500000238418579
+      ]
+    },
+    {
+      "label": "socket-slot_3b756bfbcfc667dee4b348f8f4eb28e5",
+      "center_cm": [
+        -0.7,
+        43.44,
+        20.7
+      ],
+      "extent_cm": [
+        0.14000000059604645,
+        0.015000000596046448,
+        0.5
+      ]
+    },
+    {
+      "label": "socket-slot_7184ef2dfed402695126cd0f35093be5",
+      "center_cm": [
+        1.0999999999999999,
+        43.44,
+        20.7
+      ],
+      "extent_cm": [
+        0.14000000059604645,
+        0.015000000596046448,
+        0.5
+      ]
+    },
+    {
+      "label": "usb-metal-surround",
+      "center_cm": [
+        4.0,
+        43.4,
+        20.7
+      ],
+      "extent_cm": [
+        0.949999988079071,
+        0.015000000596046448,
+        0.4000000059604645
+      ]
+    },
+    {
+      "label": "usb-port",
+      "center_cm": [
+        4.0,
+        43.44,
+        20.7
+      ],
+      "extent_cm": [
+        0.75,
+        0.015000000596046448,
+        0.22499999403953552
+      ]
+    }
+  ],
+  "camera_cm": [
+    190.0,
+    270.0,
+    130.0
+  ],
+  "lighting": "three movable rectangular softboxes; Lumen software GI; manual exposure compensation -6 stops with physical camera disabled",
+  "ready_for_production": false,
+  "model_revision": 2,
+  "material": {
+    "new_materials": true,
+    "web_textures_used": false,
+    "basecolor_gain": 0.72,
+    "texture_records": [
+      {
+        "kind": "basecolor",
+        "source": "C:\\AI\\App_Dev\\YOHAKU\\experiments\\ue5-sofa\\material-source-v2\\brown-basecolor.png",
+        "sha256": "2931b52192adf22347977fe51db705f3bd9f363d0982b4f98545cd3355887346",
+        "asset": "/Game/UEFabricV2/Textures/Brown/brown-basecolor.brown-basecolor",
+        "srgb": true,
+        "compression": "<TextureCompressionSettings.TC_EDITOR_ICON: 7>"
+      },
+      {
+        "kind": "normal",
+        "source": "C:\\AI\\App_Dev\\YOHAKU\\experiments\\ue5-sofa\\material-source-v2\\brown-normal.png",
+        "sha256": "dec284afc84afafc4b3253c73a571d70c822912ba732b73e18a92204d08b944c",
+        "asset": "/Game/UEFabricV2/Textures/Brown/brown-normal.brown-normal",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>"
+      },
+      {
+        "kind": "roughness",
+        "source": "C:\\AI\\App_Dev\\YOHAKU\\experiments\\ue5-sofa\\material-source-v2\\brown-roughness.png",
+        "sha256": "ae94ab9b0b43d45b62961abeabc8f9aae9462b16cf6941aa23ef1a8ddea4b785",
+        "asset": "/Game/UEFabricV2/Textures/Brown/brown-roughness.brown-roughness",
+        "srgb": false,
+        "compression": "<TextureCompressionSettings.TC_MASKS: 2>"
+      }
+    ],
+    "assignments": [
+      {
+        "actor": "upholstered-base",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PSF_UE_Brown.M_PSF_UE_Brown"
+      },
+      {
+        "actor": "rear-support-panel-photo-referenced",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PSF_UE_Brown.M_PSF_UE_Brown"
+      },
+      {
+        "actor": "left-arm",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PSF_UE_Brown.M_PSF_UE_Brown"
+      },
+      {
+        "actor": "arm-shoulder-stitch--1",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "right-arm",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PSF_UE_Brown.M_PSF_UE_Brown"
+      },
+      {
+        "actor": "arm-shoulder-stitch-1",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "single-seat-cushion",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PSF_UE_Brown.M_PSF_UE_Brown"
+      },
+      {
+        "actor": "seat-quilt--0_31--0_001",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "seat-quilt--0_31-0_001",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "seat-quilt-0--0_001",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "seat-quilt-0-0_001",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "seat-quilt-0_31--0_001",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "seat-quilt-0_31-0_001",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "seat-cross-quilt",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "seat-front-piping",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "left-back-cushion",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PSF_UE_Brown.M_PSF_UE_Brown"
+      },
+      {
+        "actor": "back-cushion-piping--1",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "right-back-cushion",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PSF_UE_Brown.M_PSF_UE_Brown"
+      },
+      {
+        "actor": "back-cushion-piping-1",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Stitch_Brown.M_Stitch_Brown"
+      },
+      {
+        "actor": "iron-leg",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat"
+      },
+      {
+        "actor": "rubber-foot",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Foot_Rubber.M_Foot_Rubber"
+      },
+      {
+        "actor": "iron-leg_bac3687f7485cf99c76fa3af0249e381",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat"
+      },
+      {
+        "actor": "rubber-foot_5e162c486bff3de2f21b13c127d5d3c0",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Foot_Rubber.M_Foot_Rubber"
+      },
+      {
+        "actor": "iron-leg_0d4de5b992c8906871e845b6fc7368e1",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat"
+      },
+      {
+        "actor": "rubber-foot_75d0762ac32edc87193dd203a2333e78",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Foot_Rubber.M_Foot_Rubber"
+      },
+      {
+        "actor": "iron-leg_6667e8ada727de00250e9d5a7238caa2",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat"
+      },
+      {
+        "actor": "rubber-foot_822bd5b33f469c4a824d698f25aba074",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Foot_Rubber.M_Foot_Rubber"
+      },
+      {
+        "actor": "power-panel-approximation",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_PowerPlate_MattePolymer.M_PowerPlate_MattePolymer"
+      },
+      {
+        "actor": "socket-well",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Socket_DarkPolymer.M_Socket_DarkPolymer"
+      },
+      {
+        "actor": "socket-slot",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Port_Interior.M_Port_Interior"
+      },
+      {
+        "actor": "socket-slot_aed5863e22b2208fd817d0c82faab324",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Port_Interior.M_Port_Interior"
+      },
+      {
+        "actor": "socket-well_05241ba1226a5af2c1edfc2ce18192b1",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Socket_DarkPolymer.M_Socket_DarkPolymer"
+      },
+      {
+        "actor": "socket-slot_3b756bfbcfc667dee4b348f8f4eb28e5",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Port_Interior.M_Port_Interior"
+      },
+      {
+        "actor": "socket-slot_7184ef2dfed402695126cd0f35093be5",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Port_Interior.M_Port_Interior"
+      },
+      {
+        "actor": "usb-metal-surround",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_USB_BrushedMetal.M_USB_BrushedMetal"
+      },
+      {
+        "actor": "usb-port",
+        "slot": 0,
+        "material": "/Game/UEFabricV2/M_Port_Interior.M_Port_Interior"
+      }
+    ],
+    "validation": "new reference-guided generated albedo and derived maps; studio-specific visual tuning, not measured PBR"
+  },
+  "map": "/Game/SofaStudyV2Brown"
+}

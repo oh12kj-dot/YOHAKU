@@ -1,0 +1,12 @@
+{
+	"passed": true,
+	"restart": true,
+	"storage": "C:/AI/App_Dev/YOHAKU/artifacts/native-packaged-validation/current.yohaku.json",
+	"scene": "{\r\n\t\"format\": \"yohaku-local-study\",\r\n\t\"version\": 1,\r\n\t\"room\":\r\n\t{\r\n\t\t\"widthMm\": 6200,\r\n\t\t\"depthMm\": 4600,\r\n\t\t\"heightMm\": 2600\r\n\t},\r\n\t\"finishes\": [\r\n\t\t0,\r\n\t\t1,\r\n\t\t1,\r\n\t\t1,\r\n\t\t1\r\n\t],\r\n\t\"furniture\": [\r\n\t\t{\r\n\t\t\t\"id\": \"32618F5E-465F-6682-C4C4-C3B261F2804D\",\r\n\t\t\t\"assetVersionId\": \"study-psf-v3-blue-gray\",\r\n\t\t\t\"xMm\": 2600,\r\n\t\t\t\"zMm\": 2400,\r\n\t\t\t\"yawRad\": -3.141592566167013\r\n\t\t}\r\n\t]\r\n}",
+	"checks": [
+		"PASS Explicit isolated test storage",
+		"PASS Load in second process",
+		"PASS Restart restores room and count",
+		"PASS Restart restores IDs, variant and pose"
+	]
+}

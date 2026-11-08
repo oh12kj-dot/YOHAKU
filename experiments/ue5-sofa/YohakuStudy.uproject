@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Visualization",
+  "Description": "Isolated UE5 rendering study of the photo-referenced, unvalidated sofa prototype.",
+  "Plugins": [
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true },
+    { "Name": "InterchangeEditor", "Enabled": true }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "assetId": "study-hy3d-84e56e7abf9a462e886687c80c9bd10a",
+  "seed": 42,
+  "candidateId": "A5FC07E7-4E51-52E4-C3A9-FBBE9D737AD3",
+  "source": {
+    "productId": "106294",
+    "name": "JOURNAL STANDARD FURNITURE PSF SOFA 2P",
+    "brand": "JOURNAL STANDARD FURNITURE",
+    "sourceUrl": "https://flymee.jp/product/106294/?pi_id=326211",
+    "retrievedAt": "2026-11-08T08:38:10.919Z",
+    "contentHash": "63f2fe2e0e57af8783631027ac380a6bc0a70eefa2023367759639a43d24f664",
+    "dimensionStatus": "single-source-unverified",
+    "modelStatus": "not-generated",
+    "alternateConfiguration": "座面高：41cm\r\nアーム高：55cm\r\nロータイプ脚部使用時：高さ70cm / 座面高29cm",
+    "dimensions": {
+      "widthMm": 1500,
+      "depthMm": 870,
+      "heightMm": 820
+    },
+    "variants": [
+      {
+        "id": "27425",
+        "name": "ブラウン",
+        "imageUrl": "https://static2.flymee.jp/product_images/dfad-106294/202007061231396401.jpg"
+      },
+      {
+        "id": "27426",
+        "name": "ブルーグレー",
+        "imageUrl": "https://static2.flymee.jp/product_images/dfad-106294/202411120944381564.jpg"
+      }
+    ]
+  },
+  "variantId": "27425"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "yohaku-native-tools",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "powershell -NoProfile -File tools/run-native.ps1",
+    "build": "powershell -NoProfile -File tools/build-native.ps1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:native": "powershell -NoProfile -File tools/test-native.ps1",
+    "test:product": "powershell -NoProfile -File tools/test-product-native.ps1",
+    "product:inspect": "node workers/import/src/cli.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "three": "0.187.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.183.0",
+    "typescript": "7.0.2",
+    "vitest": "^4.0.0"
+  }
+}

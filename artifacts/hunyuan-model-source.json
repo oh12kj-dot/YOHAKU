@@ -1,0 +1,15 @@
+{
+  "revision": "15c2937a842a1f8cb5cedc840790ef973b583e5f",
+  "file": [
+    {
+      "rfilename": "split_files/hunyuan3d-dit-v2_fp16.safetensors",
+      "blobId": "ed321fb49e6d2e0310e48a547f4c29f1a9027c43",
+      "size": 4928151562,
+      "lfs": {
+        "sha256": "360bc281fc956d4acac0c3d36d5ec0ebf8cdddbf4b8892e894d12419388d479b",
+        "size": 4928151562,
+        "pointerSize": 135
+      }
+    }
+  ]
+}

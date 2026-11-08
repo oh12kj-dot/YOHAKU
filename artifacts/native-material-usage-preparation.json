@@ -1,0 +1,15 @@
+{
+  "checked": 10,
+  "changed": [
+    "/Game/UEFabricV3/M_Foot_Rubber.M_Foot_Rubber",
+    "/Game/UEFabricV3/M_Leg_BlackPowdercoat.M_Leg_BlackPowdercoat",
+    "/Game/UEFabricV3/M_PSF_UE_BlueGray.M_PSF_UE_BlueGray",
+    "/Game/UEFabricV3/M_PSF_UE_Brown.M_PSF_UE_Brown",
+    "/Game/UEFabricV3/M_Port_Interior.M_Port_Interior",
+    "/Game/UEFabricV3/M_PowerPlate_MattePolymer.M_PowerPlate_MattePolymer",
+    "/Game/UEFabricV3/M_Socket_DarkPolymer.M_Socket_DarkPolymer",
+    "/Game/UEFabricV3/M_Stitch_BlueGray.M_Stitch_BlueGray",
+    "/Game/UEFabricV3/M_Stitch_Brown.M_Stitch_Brown",
+    "/Game/UEFabricV3/M_USB_BrushedMetal.M_USB_BrushedMetal"
+  ]
+}

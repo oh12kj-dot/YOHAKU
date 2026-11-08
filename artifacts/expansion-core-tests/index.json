@@ -1,0 +1,104 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "KJPC",
+			"instance": "4B9E18334FAC6CF59A28379CEA1F842D",
+			"instanceName": "KJPC-27800",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (26H2) [10.0.26300.9711] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 4060 Ti",
+			"cPUModel": "AMD Ryzen 7 5700X 8-Core Processor             ",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.08-13.12.18",
+	"succeeded": 5,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.23013520240783691,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "Expansion",
+			"fullTestPath": "Yohaku.Core.Expansion",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"4B9E18334FAC6CF59A28379CEA1F842D"
+			],
+			"duration": 0.0077644996345043182,
+			"dateTime": "2026.11.08-13.12.17",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProductSource",
+			"fullTestPath": "Yohaku.Core.ProductSource",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"4B9E18334FAC6CF59A28379CEA1F842D"
+			],
+			"duration": 0.05862320214509964,
+			"dateTime": "2026.11.08-13.12.17",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SceneContract",
+			"fullTestPath": "Yohaku.Core.SceneContract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"4B9E18334FAC6CF59A28379CEA1F842D"
+			],
+			"duration": 0.0078754015266895294,
+			"dateTime": "2026.11.08-13.12.18",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProductCandidates",
+			"fullTestPath": "Yohaku.Native.ProductCandidates",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"4B9E18334FAC6CF59A28379CEA1F842D"
+			],
+			"duration": 0.14746400713920593,
+			"dateTime": "2026.11.08-13.12.18",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProductResearchState",
+			"fullTestPath": "Yohaku.Native.ProductResearchState",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"4B9E18334FAC6CF59A28379CEA1F842D"
+			],
+			"duration": 0.0084080994129180908,
+			"dateTime": "2026.11.08-13.12.18",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

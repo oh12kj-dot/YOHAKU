@@ -1,0 +1,19 @@
+{
+  "catalogEntries": 2,
+  "partsPerEntry": 36,
+  "map": "/Game/RoomEditor",
+  "removedUnusedPlaceholders": [
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Leg.UE_SLOT_Leg",
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_PowerPlate.UE_SLOT_PowerPlate",
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Socket.UE_SLOT_Socket",
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Stitch.UE_SLOT_Stitch",
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_Upholstery.UE_SLOT_Upholstery",
+    "/Game/SofaV3/BlueGray/sofa-geometry-only/Materials/UE_SLOT_USB.UE_SLOT_USB",
+    "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Leg.UE_SLOT_Leg",
+    "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_PowerPlate.UE_SLOT_PowerPlate",
+    "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Socket.UE_SLOT_Socket",
+    "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Stitch.UE_SLOT_Stitch",
+    "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_Upholstery.UE_SLOT_Upholstery",
+    "/Game/SofaV3/Brown/sofa-geometry-only/Materials/UE_SLOT_USB.UE_SLOT_USB"
+  ]
+}

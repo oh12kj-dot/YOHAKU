@@ -1,0 +1,406 @@
+[
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\RoomEditor.umap",
+    "sha256": "AA8C6DCD0F59FEDD5DF9436E8E61C06B14DC23FA092BD86D99678B997046FFE2"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Catalog\\PSFBlueGray.uasset",
+    "sha256": "8595CDB25DA521D7A1D80618FA7773109A06FD0F335CE5DBEC2339BD56688FC4"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Catalog\\PSFBrown.uasset",
+    "sha256": "2AB5BA6C918B99CBAE53BB82DDE46AF2FF0C5E79280062CEA722E328374DE9B3"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Chalk.uasset",
+    "sha256": "2D0B37B74726E5C1633705956B9A1586B8BE134692AD55811CE4D55F15D5437E"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Clay.uasset",
+    "sha256": "1E4E83FB4940E8CD82702E56C6F734CE1FB645CF17FD3DDC935559DA05541747"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Ivory.uasset",
+    "sha256": "CC0A31C7A553722998A8F48BE055A602D28131375DDC28C9585FCED08EE8AEA8"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Oak.uasset",
+    "sha256": "5ECF973024F2F7305F5080DDE770832406ACF41C3BD31B30985E736154E0B11D"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Preview.uasset",
+    "sha256": "222BF81B5C31E273C3D746E48E0642D240E87AC82CD7AA5C56AD0B3709FCE196"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Sage.uasset",
+    "sha256": "5739831E2BC04DCBC3EE34A190140AC6587B389A67CFFE85D20E986A9C22C0C2"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Slate.uasset",
+    "sha256": "FA89D5E2DB3A38901427C6D07444D85188412E87D31E159E9DB3CCF59FD39EBF"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Stone.uasset",
+    "sha256": "CF40ED2477C503060439693194AFB3FD2FF1BB5D2A7E1A523F19C76468CD500B"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_Walnut.uasset",
+    "sha256": "B379E2AA0104FFB0AD1846ECBE227FE9D0CDA31E331F1CF76A5EFD84139A72D4"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\Finishes\\M_WhiteOak.uasset",
+    "sha256": "EEA3D30CE2512CF268CB23A5DEC55F26B2BB291FFBF335876ADFAC4C86D87E34"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_0.uasset",
+    "sha256": "0DBC0B0D1DCEB11E33BBC93D32D9751843427796D5F446194D0B02A52E3A131E"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_1.uasset",
+    "sha256": "C3A164DBD0DB7E0E3C4975BB65A50A9961D27939E48692D664976539C3C7C926"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_10.uasset",
+    "sha256": "B41199DAA1C191BB323B44A37DB792F655202BDCFDF5A098679E5575C9DD80AA"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_11.uasset",
+    "sha256": "2CCC53F7BB2DF000EE2D92026365D7738EADAC7B7DE5444FE4DFAF3259D1236F"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_12.uasset",
+    "sha256": "953CA285ACC0D1F6808AA5D211F71CA27E9ECD15B6A44EF6FF6A4C6ABD8BBA2C"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_13.uasset",
+    "sha256": "99242DE01D497709ED438EBCC151494F30E10FAC65CE130016BB4468A8BB7C35"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_14.uasset",
+    "sha256": "3FCF1AE13AF8F313E9C363ECC1201FDC08FEE997A56FF721AC0828DF9C1A9A04"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_15.uasset",
+    "sha256": "CC1566228FA279B9C01D891CE6B9CE9C4C7CE91C817B27E335A3C4F1BF7A433C"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_16.uasset",
+    "sha256": "5124011834ACA15D67853B0762CF8B1E027996F74DFF9DA219A7166BC7BDF3B8"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_17.uasset",
+    "sha256": "2DADD1F0BC916DC09C5DA6DDD929B19C51DEAEEF702D9200BE00DB0834FAD0D7"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_18.uasset",
+    "sha256": "93C3E271198BAC018C90A015AD6BC68F4CAB837D5C63590EC814B7E157CF190E"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_19.uasset",
+    "sha256": "5F5F028055700135B39F11E931FD643298D62ADB00E1AE10C8FC930071745834"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_2.uasset",
+    "sha256": "F5A8F3ED75E2DA92646BB711D5C3FDC99D366B9CA357133610547EE52D140E10"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_20.uasset",
+    "sha256": "BFEC4F1E00F80BC7A8B0414CFF1979105BB84A3FDB8A08CC8479932A7E478F39"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_21.uasset",
+    "sha256": "CF362C3085915F45B8461C7C0BEC8659412B920EB738E86141867D6ACA0EA784"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_22.uasset",
+    "sha256": "8C79D3ACFE7DBFF45A97E23D6936C8A713DF5DA2B61B71E915AF55E0F94B1586"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_23.uasset",
+    "sha256": "93D03449D25D059F8BD67B24F522725DD9C601B93F30952F7B9D54C3F8827BDE"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_24.uasset",
+    "sha256": "EF9F9E033CB75E14882D345BF95623281CE60B4E7508AA43790213A1076E8EFA"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_25.uasset",
+    "sha256": "8AE3C91F62E14DB8D6EFC5AA017B33705BF6D861CB17FFB9977F3D8B20814912"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_26.uasset",
+    "sha256": "672942633AF459F611C736FFDD60C5E7BC6EF789E1600CFEED42242663850F08"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_27.uasset",
+    "sha256": "43A78767BF2C79C965A6B8E20E60FA830AFB09BF138B926B7E3CFB8DDD636E50"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_28.uasset",
+    "sha256": "867FEBEA92BC134DEE028302990655760BE7B1F5537CB3C844A17E8CC928685B"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_29.uasset",
+    "sha256": "2CA63845602E781FDA05093B053345428CFA32C0DEEF30FD403EA67960C08FC1"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_3.uasset",
+    "sha256": "80BA19C32DB91D99A1E408B74887C529EE5E1AB3361E6785AEC52CB19F79340F"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_30.uasset",
+    "sha256": "A7A65F756E4765D5ED4FDB4FAE76A4A48EA055ACCA22A07B48F36F146E1C095E"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_31.uasset",
+    "sha256": "F350E5EE79C8E6A2BF40B1F9255CA47EC1FB734C572178DA0D43C446DED06FF0"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_32.uasset",
+    "sha256": "559F0AA8C0408807795C0BDDAFA7F6A971497AD720FA0B11EB278E0C64C6173E"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_33.uasset",
+    "sha256": "EDE01300F79F882B5F09E70EF6A0A8CB9861FA7D303BE86633059A62F0327C41"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_34.uasset",
+    "sha256": "9590FA6CAE9729F5177EF0BA6AB395F870063539B7E6FE552A4B1920B436837D"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_35.uasset",
+    "sha256": "AF9EA17D7578FABB7FC11C1D70FF0D379DF92F4CB146389B6FCC0AE98814DCC8"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_4.uasset",
+    "sha256": "D0A5B8F8FBBF69CF3200D402AA3068DA34D1D2F81866DE42D7A43006366F3E6A"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_5.uasset",
+    "sha256": "097389752DF4963D7FC2723A177381B58B32CBCB77592F35E10F549275214465"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_6.uasset",
+    "sha256": "ED5560FCC459BD7C2726200DFE5EBA5C3051AA8E470EE992E979A0A159EB79B2"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_7.uasset",
+    "sha256": "E04C9F2982D52BD8C99E6DEE39B4F4BFED6668D6EE22AA2C8ABE8AFB784F8284"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_8.uasset",
+    "sha256": "7F76D84AAE8AB7814F822DD0161318F1429EB89582696E422912A0F82946F382"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\BlueGray\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_9.uasset",
+    "sha256": "F9A950FA493E9669A0656DC9035A7B77DD89FB8659FDE8CDDB44F5307FEBEDCD"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_0.uasset",
+    "sha256": "BAC3C598FA8A4F6D66D6B91B0493FDC597754BB0A1E8E2BBDB763D76BED7A9EC"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_1.uasset",
+    "sha256": "C97E8532FFE1AE84D3D386C06F91E0D7AC46F7B09C6D09F6FBF135FE664CE559"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_10.uasset",
+    "sha256": "55F663EFE3E1FFC8DF98069E64C7987F61059D7705A882715E8A0F7E7A56B7E0"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_11.uasset",
+    "sha256": "51B91976F0FC98CD23E73C1360272E86F53FDD83F79FE08AFE317C1AD4D398A5"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_12.uasset",
+    "sha256": "77FEDCC960597E288582DD6D6AF47D1E6EF2AA6DE56528B8F5B332C41A72AEB6"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_13.uasset",
+    "sha256": "BCB248B0BAE2B34082B5CEA9D27FA25E5F576F70AB082A3D8F0A77022A5E916A"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_14.uasset",
+    "sha256": "86B25AEAD3C903568157E0468BA845D230E8F523C3E01FA267DC21390F068AC9"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_15.uasset",
+    "sha256": "7752C2C8459E80A28FA4AD2B59CD721DEEDE791B998BAE4FE0AA0B46A72ED982"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_16.uasset",
+    "sha256": "7334FB122B13ABF4D5A03ED92692CF6555FC0A010B7CE9F7A79BAC586A88E543"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_17.uasset",
+    "sha256": "CA3C26671FD227D35BD2B3BE5A506C9AAAEC98E46841DD647FBAAB0995223BAE"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_18.uasset",
+    "sha256": "DB8FE69A27B167B84E238D4C985D602101608D29CFC971CEFBCAC0F41F4741BA"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_19.uasset",
+    "sha256": "6F35E9573F9C21ACE2C209209AFA8111E7B45260DABAA35B123202C5DCD98232"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_2.uasset",
+    "sha256": "9357D42B35690D2A0591C13E488EC31FDC5B878AC198EA4190460FC2380DACDD"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_20.uasset",
+    "sha256": "627AD51C3EA9709B5DB7A5C50141672B33B8D8C9C4C7103E9B98D3593AB402CA"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_21.uasset",
+    "sha256": "DA8BD22C37CBFF6EB90FED17B68B89FA1B9B899387B6C814AE628502F5D3CBD9"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_22.uasset",
+    "sha256": "7FABC20661DB2B734D08CF390117DA6D5DF0BF0B93254C710AB209C165C875A4"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_23.uasset",
+    "sha256": "3AFBE2A7D014D193B763A47084ABBC48EFD5B704A87D534811A12FEC3A605268"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_24.uasset",
+    "sha256": "21F5D2EF07C03CB66225631ACA2389EF69B3EE2E0FDEEA92C7C71718CEFF331C"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_25.uasset",
+    "sha256": "E577A8503D35CB352CEA2DBCDFE7A4382572D673E34CF1E96F31B286BDA22A29"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_26.uasset",
+    "sha256": "73BD380373E678B5CEB19A58BD79FD54F8FADA0689C5056742B342B1230D435A"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_27.uasset",
+    "sha256": "716B3B86ACE51DA7752B63E30B41EF43AE31EFC577EBA106208C90B1B70E1C70"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_28.uasset",
+    "sha256": "47BC98C86D44D6E6ACDDE6CC7BF7BBB95EFE2F65A3C32C7A5C480DD5FC089DDC"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_29.uasset",
+    "sha256": "073212443529A5AB9F10D5BDF8C556AF4184D4B09123B13912FA70437124D95B"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_3.uasset",
+    "sha256": "0302BFE08D43A22407E757EB1D79B66B0D99E2AB4CF4B4A44F097DE1F257ECB4"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_30.uasset",
+    "sha256": "B5197B9B2AA439A27CCB616795431F34DB7053061FE75DDDDE963E127452DFFC"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_31.uasset",
+    "sha256": "150862542CC3E3AF7C0F34CBFB5153DBF1AA490A0D789749F3FBC53585543019"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_32.uasset",
+    "sha256": "106315A975BA56C925133533D5CA868824C167F67BD30C2E670947A1E984AFFA"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_33.uasset",
+    "sha256": "A639006A1A492F160AD34BE23678225FFEA62DA4994940681CBA770F17191639"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_34.uasset",
+    "sha256": "647D2EF9515A4E4B969831DFC99EBCFAF26BA98622C9FD5BEFE46C63E9C5D3D0"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_35.uasset",
+    "sha256": "32011E9BDF8BA30E1D99C1F69083361BC4211E5FE5F87A5C36580F6CB42B41B9"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_4.uasset",
+    "sha256": "39DF158DF13C5E35434707E4BD8A8F788F1E10F89E33C06ABE2699ED7EEA491D"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_5.uasset",
+    "sha256": "81F1B8BB9C39C66A358675737FE97AD473F6006B360C6263FD9C9567C54BA650"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_6.uasset",
+    "sha256": "E03BA7B28EB56326DFD9AA2A84B2934ED376C91893937A10A308815373026A44"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_7.uasset",
+    "sha256": "A0C612C563223892B6D438072953FF3433511E4683A70C4396C0E45C3A31C1D4"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_8.uasset",
+    "sha256": "DBA606B43A3D7CBC93BDE36E7E576364867F9605F64EEBBF550C609F74A83026"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\SofaV3\\Brown\\sofa-geometry-only\\StaticMeshes\\sofa-geometry-only_mesh_9.uasset",
+    "sha256": "893643C17DD1EFE386AE723BDDEB7984DA46A0FA5E642023A30391A162F5C009"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Foot_Rubber.uasset",
+    "sha256": "7F9FF0B59FE44F1F1A8BDE1361642F54B5C085E9AE0BEE21E1B659C078E27E47"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Leg_BlackPowdercoat.uasset",
+    "sha256": "3B0358643C4703E3963F3D300772CD201A9C53E5245D369237CE6DC9587B2B4F"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Port_Interior.uasset",
+    "sha256": "C527D08F42E6FCD8C7C0422DE00D92335941C33DD04D236532CAAF0BD656B3B2"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_PowerPlate_MattePolymer.uasset",
+    "sha256": "33A6AB95C6C05D1823D04162E32E415BE6FD71FBD1776A5A76F7EE5AEE4422E4"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_PSF_UE_BlueGray.uasset",
+    "sha256": "25EE6ED9ADAB7C55C1903E2AA20C934517356E15C3DEAC0090A6EAAF4A90B483"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_PSF_UE_Brown.uasset",
+    "sha256": "8517CF1E4BA83BD6707C5503535A6A4DAA90E846808BE66E2138743EFCA0E80E"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Socket_DarkPolymer.uasset",
+    "sha256": "CA98ECF3A63B91EA50117CADE2A3EA744438D381BA69BD71677367BBCE02AFE0"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Stitch_BlueGray.uasset",
+    "sha256": "A11D3A0AB1D4934CE6A9247CF73983134415B952E9CA515960F132BCCDA8449C"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_Stitch_Brown.uasset",
+    "sha256": "0A25DBBABC1755544C5AA3131F397A306B99836C3BED960188F38E4EF22DEB5C"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\M_USB_BrushedMetal.uasset",
+    "sha256": "CCFFBC43DFFD5F5519A8CA7857442C7F40CF5A2EE4C8803D684E1C7E6A6E8AE1"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\Textures\\BlueGray\\blue-gray-basecolor.uasset",
+    "sha256": "3B5B3690DAC0E6E96D451EDEB399F64B1F1484C1FC202E1F759C328CCC88770B"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\Textures\\BlueGray\\blue-gray-normal.uasset",
+    "sha256": "44008118A71534EB1506A4729F56DBDB469CBB0081DE2286E6C288291B3A4206"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\Textures\\BlueGray\\blue-gray-roughness.uasset",
+    "sha256": "8CB5B181B17ACBB02816F024887DADB2CF900B68CD30EE298BFB828237DA4DCE"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\Textures\\Brown\\brown-basecolor.uasset",
+    "sha256": "B37F35AF0BB53B287F4A8EE8F4C3BF5D54B852D11A9085EDD8150C641F379680"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\Textures\\Brown\\brown-normal.uasset",
+    "sha256": "AF30DD2989E1D03D00CD74E2515627689D2182A208A17905D5F58DA462C45BB7"
+  },
+  {
+    "path": "C:\\AI\\App_Dev\\YOHAKU\\apps\\ue\\Content\\UEFabricV3\\Textures\\Brown\\brown-roughness.uasset",
+    "sha256": "6580E966C5C0653690E963D59AD6DAE4E9D342A86ED439DE1B690E295E6212B0"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "sourceMeshSha256": "f5abe22538a063368044e61fb6e1fddc15db39197266172f7c0bdb1499c7a87f",
+  "geometryOnlySha256": "d47372db2a122c06d0d325181b98f9b93206c52b914b17ac3b92374997c40e17",
+  "sourceWebTexturesRemoved": true,
+  "materialOrigin": "new built-in ImageGen generations from official product references; independent UE native graphs",
+  "colors": {
+    "brown": {
+      "baseColorSha256": "2931b52192adf22347977fe51db705f3bd9f363d0982b4f98545cd3355887346",
+      "width": 1254,
+      "height": 1254,
+      "maps": "new albedo; derived DirectX normal and linear roughness; not measured/scanned PBR",
+      "normalSha256": "dec284afc84afafc4b3253c73a571d70c822912ba732b73e18a92204d08b944c",
+      "roughnessSha256": "ae94ab9b0b43d45b62961abeabc8f9aae9462b16cf6941aa23ef1a8ddea4b785"
+    },
+    "blue-gray": {
+      "baseColorSha256": "6abbc0e9a32a8daf1b07cf6ce04b1fc616732f1255074dcc2bdfef2ae1928007",
+      "width": 1254,
+      "height": 1254,
+      "maps": "new albedo; derived DirectX normal and linear roughness; not measured/scanned PBR",
+      "normalSha256": "1cd7437c9ff2dc3b1f9eee624dc8ef1ed4d924d20c9399de78b2f7dfd2730221",
+      "roughnessSha256": "57253ae62b695b4ecf2965cda8cd796ef6e14c042d274a19989338d1aace4bcd"
+    }
+  }
+}
